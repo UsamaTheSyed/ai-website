@@ -1,0 +1,38 @@
+DirectoryIndex index.php
+
+<IfModule mod_dir.c>
+    # /services and /blog are pages that share a name with the services/
+    # and blogs/ folders. Without this, Apache auto-redirects a bare
+    # /services request to /services/ (treating it as the folder) before
+    # our rewrite rules below ever get a chance to run.
+    DirectorySlash Off
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block direct access to partials — these are only meant to be pulled in
+    # via PHP include() from a real page, so requesting them directly would
+    # render a broken half-page.
+    RewriteRule ^includes/ - [F,L]
+
+    # /index.php -> / (canonical homepage URL)
+    RewriteCond %{THE_REQUEST} \s/index\.php[?\s] [NC]
+    RewriteRule ^index\.php$ /? [R=301,L]
+
+    # Any other direct *.php request -> same URL without the extension
+    # e.g. /services/product-hunting.php -> /services/product-hunting
+    RewriteCond %{THE_REQUEST} /([^.\s]+)\.php[?\s] [NC]
+    RewriteRule ^ /%1 [R=301,L,NC]
+
+    # /services and /blog are listing pages that happen to share a name
+    # with the services/ and blogs/ folders — map those exactly first.
+    RewriteRule ^services/?$ services.php [L]
+    RewriteRule ^blog/?$ blog.php [L]
+
+    # Everything else: if /path exists on disk as /path.php, serve it
+    # internally without changing the URL the visitor sees.
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php [L]
+</IfModule>
