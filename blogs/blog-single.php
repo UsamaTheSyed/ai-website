@@ -8,35 +8,16 @@ include('../includes/header.php'); ?>
 
     <?php include '../includes/menu.php';?>
 
-    <section class="main-banner inner-banner">
+    <section class="main-banner inner-banner blg-detail-banner">
+        <img src="assets/images/hero/inner-elm.png" class="img-fluid inner-elm" alt="">
         <div class="container">
             <div class="row align-items-end">
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="banCont">
-                        <h1>Blog</h1>
-                        <p>We build, run, and scale your Amazon, Shopify, Walmart, and TikTok Shop stores end to end. You own it. You profit from it. You never operate it.</p>
-                        <div class="btn-box">
-                            <a href="javascript:;" class="themeBtn">Get my free audit <i class="fa-solid fa-arrow-right-long"></i></a>
-                            <a href="javascript:;" class="themeBtn">See real results</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="logo-marquee">
-        <div class="container-fluid p-0">
-            <div class="row m-0">
-                <div class="col-md-12 p-0">
-                    <div class="logo-slider" dir="rtl" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <div class="img"><h3>Place  Logo <span>*</span></h3></div>
-                        <div class="img"><h3>Place  Logo <span>*</span></h3></div>
-                        <div class="img"><h3>Place  Logo <span>*</span></h3></div>
-                        <div class="img"><h3>Place  Logo <span>*</span></h3></div>
-                        <div class="img"><h3>Place  Logo <span>*</span></h3></div>
-                        <div class="img"><h3>Place  Logo <span>*</span></h3></div>
-                        <div class="img"><h3>Place  Logo <span>*</span></h3></div>
-                        <div class="img"><h3>Place  Logo <span>*</span></h3></div>
+                        <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Lorem Ipsum is simply <b>dummy the</b> printing.</h1>
+                        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                            STACKLIN takes full operational command of your multi-channel stores across Amazon, Shopify, Walmart & TikTok Shop. Pure profit- share alignment, zero headcount drag.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -46,13 +27,9 @@ include('../includes/header.php'); ?>
     <section class="blog-detail-sect">
         <div class="container py-5">
             <div class="row g-5 m-0">
-            
-                <!-- ============ MAIN CONTENT ============ -->
                 <div class="col-xl-8 col-lg-8 col-md-12">
-            
-                    <!-- Hero -->
                     <div class="hero-wrap mb-4">
-                        <img src="assets/images/testimonials/single-img.webp" class="img-fluid w-100" alt="Hand holding smartphone with camera and notebook on desk">
+                        <img loading="lazy" decoding="async" width="1071" height="491" src="assets/images/blog/blog-img.png" class="img-fluid w-100" alt="Hand holding smartphone with camera and notebook on desk">
                         <div class="date-badge">
                         <span class="day">08</span>
                         <span class="month">Aug</span>
@@ -61,6 +38,7 @@ include('../includes/header.php'); ?>
                 
                     <div class="post-meta mb-2">
                         <span><i class="fa-solid fa-user"></i>By admin</span>
+                        <span><i class="fa-solid fa-folder-open"></i>Business</span>
                         <span><i class="fa-regular fa-comments"></i>Comments(2)</span>
                     </div>
                 
@@ -83,10 +61,10 @@ include('../includes/header.php'); ?>
                     <!-- Quote block -->
                     <div class="quote-block">
                         <span class="quote-icon">
-                            <img src="assets/images/testimonials/Vector.webp" class="img-fluid" alt="">
+                            <img loading="lazy" decoding="async" width="68" height="50" src="assets/images/testimonials/blgqt.png" class="img-fluid" alt="">
                         </span>
                         <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's text ever since 1966, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         </p>
                     </div>
                 
@@ -96,9 +74,18 @@ include('../includes/header.php'); ?>
                         standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing
                         Library in London, took a 1934 Cicero translation and scrambled it.
                     </p>
+
+
+                    <h3 class="sub-heading">Lorem Ipsum is simply dummy text.</h3>
+                    <ul class="sub-listed">
+                        <li><figure><img src="assets/images/testimonials/tick.png" class="img-fluid" alt=""></figure>Upgrade your home with powerful broadband internet that handles multiple</li>
+                        <li><figure><img src="assets/images/testimonials/tick.png" class="img-fluid" alt=""></figure>From streaming HD contents to browsing the web, our network offers smooth</li>
+                        <li><figure><img src="assets/images/testimonials/tick.png" class="img-fluid" alt=""></figure>Our broadband service delivers high-speed internet for your daily digital life</li>
+                        <li><figure><img src="assets/images/testimonials/tick.png" class="img-fluid" alt=""></figure>Whether you're gaming, studying, video calling, we ensure seamless & lag-free</li>
+                    </ul>
                 
                     <!-- Second image -->
-                    <img src="assets/images/testimonials/blg-img-one.webp" class="img-fluid mb-5" alt="Team discussing charts in a meeting room">
+                    <img loading="lazy" decoding="async" src="assets/images/testimonials/blg-det.jpg" class="img-fluid w-100 mb-5 rounded-3 " alt="Team discussing charts in a meeting room">
                 
                     <h3 class="sub-heading">Lorem Ipsum</h3>
                     <p class="sub-text mb-4">
@@ -151,7 +138,7 @@ include('../includes/header.php'); ?>
                             <li>
                                 <span>
                                     <figure>
-                                        <img src="assets/images/testimonials/rep-img.webp" class="img-fluid w-100" alt="">
+                                        <img loading="lazy" decoding="async" width="133" height="123" src="assets/images/testimonials/rep-img.webp" class="img-fluid w-100" alt="">
                                     </figure>
                                 </span>
                                 <span>
@@ -165,7 +152,7 @@ include('../includes/header.php'); ?>
                             <li>
                                 <span>
                                     <figure>
-                                        <img src="assets/images/testimonials/rep-img.webp" class="img-fluid w-100" alt="">
+                                        <img loading="lazy" decoding="async" width="133" height="123" src="assets/images/testimonials/rep-img.webp" class="img-fluid w-100" alt="">
                                     </figure>
                                 </span>
                                 <span>
@@ -245,7 +232,7 @@ include('../includes/header.php'); ?>
                         <h4 class="widget-title">Recent Post</h4>
                 
                         <div class="recent-post">
-                        <img src="assets/images/testimonials/rep-img.webp" class="img-fluid" alt="Recent post thumbnail">
+                        <img loading="lazy" decoding="async" width="133" height="123" src="assets/images/testimonials/rep-img.webp" class="img-fluid" alt="Recent post thumbnail">
                         <div>
                             <div class="rp-time"><i class="fa-regular fa-clock"></i> 7:00 Am - 8:00pm</div>
                             <div class="rp-title">Engineered For Elite Performance</div>
@@ -253,7 +240,7 @@ include('../includes/header.php'); ?>
                         </div>
                 
                         <div class="recent-post">
-                        <img src="assets/images/testimonials/rep-img.webp" class="img-fluid" alt="Recent post thumbnail">
+                        <img loading="lazy" decoding="async" width="133" height="123" src="assets/images/testimonials/rep-img.webp" class="img-fluid" alt="Recent post thumbnail">
                         <div>
                             <div class="rp-time"><i class="fa-regular fa-clock"></i> 7:00 Am - 8:00pm</div>
                             <div class="rp-title">Engineered For Elite Performance</div>
@@ -261,7 +248,7 @@ include('../includes/header.php'); ?>
                         </div>
                 
                         <div class="recent-post">
-                        <img src="assets/images/testimonials/rep-img.webp" class="img-fluid" alt="Recent post thumbnail">
+                        <img loading="lazy" decoding="async" width="133" height="123" src="assets/images/testimonials/rep-img.webp" class="img-fluid" alt="Recent post thumbnail">
                         <div>
                             <div class="rp-time"><i class="fa-regular fa-clock"></i> 7:00 Am - 8:00pm</div>
                             <div class="rp-title">Engineered For Elite Performance</div>
@@ -284,22 +271,140 @@ include('../includes/header.php'); ?>
         </div>
     </section>
 
-    <section class="blog-sect">
+    <div class="marq-slides">
         <div class="container-fluid p-0">
-            <div class="row m-0">
-                <div class="col-12 p-0">
-                    <div class="marquee-wrap" data-marquee data-text="Blog" data-speed="20">
-                        <div class="marquee-track"></div>
+                <div class="row m-0">
+                    <div class="col-md-12 p-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="logo-slider-two"> 
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="container-fluid p-0">
+                <div class="row m-0">
+                    <div class="col-md-12 p-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="logo-slider" dir="rtl">
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <section class="faq-sect">
+        <div class="container-fluid p-0">
+            <div class="row m-0 justify-content-end">
+                <div class="col-xl-5 col-lg-6">
+                    <div class="faq-cont">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What types of payment do you accept?
+                                </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Do you offer emergency repair services?
+                                </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I get a free estimate before the work starts?
+                                </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Can I book an appointment online?
+                                </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    How much will the repair cost?
+                                </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 p-0">
+                    <div class="faq-img">
+                        <h2 class="sectionHeading">Your <span>questions, <br><b><strong>answered</strong></b></span> straight.</h2>
+                        <p>
+                            Stackline Retail is a performance-based ecommerce management company. For over a decade 
+                        </p>
+                        <figure>
+                            <img src="assets/images/why/faqImg.png" class="img-fluid w-100" alt="">
+                        </figure>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <?php include '../includes/faq.php';?>
-
-    <?php include '../includes/cta.php';?>
+    <section class="cta-sect">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-8">
+                    <div class="cta-cont">
+                        <h2 class="sectionHeading">Ready to <span><b><strong>drive growth</strong></b> today?</span></h2>
+                        <p>Stackline Retail is a performance-based ecommerce management company. For over a decade </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cta-cont-two">
+                        <a href="javascipt:;" class="themeBtn"><i class="fa-solid fa-phone"></i> 123 456 789 0</a>
+                        <a href="javascipt:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <?php include '../includes/contact.php';?>
 

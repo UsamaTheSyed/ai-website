@@ -7,67 +7,56 @@ include('includes/header.php'); ?>
 <body>
 
     <?php include 'includes/menu.php';?>
-
+    
+    
     <section class="main-banner inner-banner">
+        <img src="assets/images/hero/inner-elm.png" class="img-fluid inner-elm" alt="">
         <div class="container">
             <div class="row align-items-end">
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="banCont">
-                        <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">About Syntrax Ai</h1>
-                        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">At Syntrax Ai, we help businesses build, manage, and grow online stores without getting buried in the daily work. From store setup and product research to automation, advertising, and ongoing support, we handle the moving parts so you can focus on where your business is going.</p>
-                        <div class="btn-box" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                            <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="themeBtn">Get my free audit <i class="fa-solid fa-arrow-right-long"></i></a>
-                            <a href="review.php" class="themeBtn">See Our Testimonials</a>
-                        </div>
+                        <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Lorem Ipsum is simply <b>dummy the</b> printing.</h1>
+                        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                            STACKLIN takes full operational command of your multi-channel stores across Amazon, Shopify, Walmart & TikTok Shop. Pure profit- share alignment, zero headcount drag.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="logo-marquee">
-        <div class="container-fluid p-0">
-            <div class="row m-0">
-                <div class="col-md-12 p-0">
-                    <div class="logo-slider" dir="rtl" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="about-in-sect">
-        <img src="assets/images/about/ambient-glow-left.webp" class="abElm" alt="">
+
+    <section class="inner-opt opt-sect">
         <div class="container">
-            <div class="row align-items-center justify-content-center rev-row">
-                <div class="col-lg-5">
-                    <figure data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <img src="assets/images/about/ab-in-img.webp" class="img-fluid w-100" alt="">
-                    </figure>
+            <div class="row m-0 align-items-center justify-content-center">
+                <div class="col-xl-5 col-lg-6">
+                    <div class="opt-img">
+                        <figure>
+                            <img src="assets/images/about/inner-ab-img.png" class="img-fluid w-100" alt="">
+                            <div class="overlay">
+                                <div class="exp-content">
+                                    <div class="icon-exp">
+                                        <img src="assets/images/about/project-management.svg" class="img-fluid" alt="">
+                                    </div>
+                                    <h3>30+</h3>
+                                    <h4>Year experience</h4>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="aboutCont">
-                        <h3 class="subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><span><img src="assets/images/hero/line.webp" alt=""></span>Know More</h3>
-                        <h2 class="sectionHeading" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Ecommerce Solutions That Drives Growth</h2>
-                        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">Building and growing an ecommerce business takes more than setting up a store and adding products. It requires thoughtful planning, reliable systems, ongoing management, and a clear understanding of what customers need. At Syntrax Ai, we handle the essential work behind your online business, from store setup and automation to product research, advertising, and daily support, helping you stay focused on growth.</p>
-                        <ul data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                            <li>
-                                <h3>Ready to Build Your Store?</h3>
-                                <p>Get the right foundation in place and start your ecommerce journey with confidence.</p>
-                            </li>
-                            <li>
-                                <h3>Looking To Grow?</h3>
-                                <p>Let’s simplify your operations and create more room for your next stage of growth.</p>
-                            </li>
-                        </ul>
-                        <div class="body-btns" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                            <a href="contact.php" class="themeBtn">Contact Us</a>
-                            <a href="javascript:;" class="themeBtn"><span><i class="fa-solid fa-phone"></i></span>  +1 (123) 456 789</a>
+                <div class="col-xl-5 col-lg-6">
+                    <div class="opt-cont">
+                        <h2 class="sectionHeading">The operating team <span><b><strong>behind 800+</strong></b> profitable stores.</span></h2>
+                        <p>
+                            Stackline Retail is a performance-based ecommerce management company. For over a decade we’ve done one thing: build, run, and scale online stores for people who want the income without the operation.
+                            <br><br>
+                            Our team of marketplace specialists, media buyers, supply-chain managers, and support agents works as your back office — identifying market gaps, launching your storefront, and running the daily grind while you track results from a live dashboard. You own the store and the brand, always. We simply make it perform.
+                            <br><br>
+                            Stackline Retail is a performance-based ecommerce management company. For over a decade we’ve done one thing: build, run, and scale online stores for people who want the income without the operation.
+                        </p>
+                        <div class="opt-box">
+                            <a href="javascript:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                            <a href="javascript:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>
@@ -75,242 +64,648 @@ include('includes/header.php'); ?>
         </div>
     </section>
 
-    <section class="about-intwo-sect">
-        <div class="container-fluid p-0">
-            <div class="row m-0 justify-content-end align-items-center">
-                <div class="col-lg-5 p-0">
-                    <div class="aboutCont">
-                        <h3 class="subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><span><img src="assets/images/hero/line.webp" alt=""></span>Best Services</h3>
-                        <h2 class="sectionHeading" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Built For Ecommerce.</h2>
-                        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">Running an ecommerce business involves countless moving parts, from managing products and orders to keeping up with customers, advertising, and marketplace requirements. At Syntrax Ai, we bring these tasks together through practical services designed around how online businesses actually operate. Our team helps simplify the workload, improve daily operations, and give you more time to focus on building your business.</p>
-                        <ul data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                            <li>
-                                <h3>Focused On Growth.</h3>
-                                <p>We combine ecommerce experience, hands-on support, and practical strategies to help businesses move forward with confidence.</p>
-                            </li>
-                        </ul>
-                        <div class="body-btns" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                            <a href="contact.php" class="themeBtn">Contact Us</a>
-                            <a href="javascript:;" class="themeBtn"><span><i class="fa-solid fa-phone"></i></span>  +1 (123) 456 789</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 p-0">
-                    <figure data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <img src="assets/images/about/ab-two-img.webp" class="img-fluid w-100" alt="">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="ab-card-sect">
+    <section class="vendor-sect">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3 class="subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><span><img src="assets/images/hero/line.webp" alt=""></span>The Challenges</h3>
-                    <h2 class="sectionHeading" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Ecommerce Challenges We Solve</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="abin-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                        <span>
-                            <i class="fa-solid fa-chart-line"></i>
-                        </span>
-                        <h3>Too Much To Manage</h3>
-                        <p>
-                            Managing listings, orders, inventory, customers, and advertising can quickly consume your time.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="abin-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                        <span>
-                            <i class="bi bi-geo-alt"></i>
-                        </span>
-                        <h3>Platform Complexity</h3>
-                        <p>
-                            Every marketplace has different requirements, tools, policies, and processes to manage.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="abin-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                        <span>
-                            <i class="fa-regular fa-star"></i>
-                        </span>
-                        <h3>Finding Winning Products</h3>
-                        <p>
-                            Choosing the right products needs research into demand, competition, pricing, and trends.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="abin-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                        <span>
-                            <i class="fa-regular fa-bell"></i>
-                        </span>
-                        <h3>Unorganized Store Operations</h3>
-                        <p>
-                            Without reliable systems, repetitive tasks can slow down your business and create unnecessary work.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="abin-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                        <span>
-                            <i class="bi bi-ticket-perforated"></i>
-                        </span>
-                        <h3>Rising Advertising Costs</h3>
-                        <p>
-                            Poorly managed campaigns can waste budget and make it harder to reach potential customers.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="abin-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                        <span>
-                            <i class="bi bi-airplane"></i>
-                        </span>
-                        <h3>Account Restrictions</h3>
-                        <p>
-                            Marketplace policy issues can disrupt your operations and put your store at risk.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="abin-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                        <span>
-                            <i class="fa-solid fa-couch"></i>
-                        </span>
-                        <h3>Limited Time To Grow</h3>
-                        <p>
-                            Daily ecommerce tasks can leave little time for planning, strategy, and business development.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="abin-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                        <span>
-                            <i class="bi bi-shield"></i>
-                        </span>
-                        <h3>Scaling Without Support</h3>
-                        <p>
-                            Growing your store becomes harder when your systems and support cannot keep pace.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="ab-in-count">
-        <div class="new-conut">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="nc-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                            <span>
-                                <figure>
-                                    <img src="assets/images/found/trending-up.webp" class="img-fluid" alt="">
-                                </figure>
-                            </span>
-                            <span>
-                                <h3>75%</h3>
-                                <p>of clients saw 3X revenue</p>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="nc-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                            <span>
-                                <figure>
-                                    <img src="assets/images/found/store.webp" class="img-fluid" alt="">
-                                </figure>
-                            </span>
-                            <span>
-                                <h3>699+</h3>
-                                <p>stores launched</p>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="nc-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                            <span>
-                                <figure>
-                                    <img src="assets/images/found/users.webp" class="img-fluid" alt="">
-                                </figure>
-                            </span>
-                            <span>
-                                <h3>1,235</h3>
-                                <p>new signups this month</p>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-6">
-                        <div class="nc-box" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-                            <span>
-                                <figure>
-                                    <img src="assets/images/found/activity.webp" class="img-fluid" alt="">
-                                </figure>
-                            </span>
-                            <span>
-                                <h3>92%</h3>
-                                <p>saw growth within 3 months</p>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="abi-sect">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h3 class="subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><span><img src="assets/images/hero/line.webp" alt=""></span>Our Approach</h3>
-                    <h2 class="sectionHeading" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Built For Your Business.</h2>
-                </div>
-                <div class="col-md-6">
-                    <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        We believe ecommerce support should make your business easier to manage, not add another layer of complexity. That is why we focus on practical solutions, clear communication, and dependable support across every stage of your online business. From launching your store to managing daily operations and preparing for growth, we work around your needs and help keep your ecommerce journey moving forward.
-                    </p>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-md-12">
-                    <figure data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <img src="assets/images/about/abi-img-one.webp" class="img-fluid w-100" alt="">
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid p-0">
-            <div class="row m-0">
-                <div class="col-12 p-0">
-                    <div class="marquee-wrap" data-marquee data-text="About us" data-speed="30">
-                        <div class="marquee-track"></div>
+                    <div class="vendor-cont">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-6">
+                                <div class="vnd-cont">
+                                    <h2 class="sectionHeading">A strategic partner,<br><span><b><strong>not another </strong></b> vendor.</span></h2>
+                                    <p>
+                                        We help you set up a legal business structure so you can run your store the right way from the start. New to business? We walk you through registration step by step — structure, paperwork, and compliance included, so nothing comes back to bite you later.
+                                    </p>
+                                    <ul>
+                                        <li>Full service marketplace ops</li>
+                                        <li>Dedicated account manager</li>
+                                        <li>Performance-focused systems</li>
+                                        <li>Transparent & data driven</li>
+                                    </ul>
+                                    <a href="javascript:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="vnd-img">
+                                    <img src="assets/images/about/vendImg.png" class="img-fluid w-100" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <?php include 'includes/proof.php';?>
+    <div class="marq-slides">
+            <div class="container-fluid p-0">
+                <div class="row m-0">
+                    <div class="col-md-12 p-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="logo-slider-two"> 
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="row m-0">
+                    <div class="col-md-12 p-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="logo-slider" dir="rtl">
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
 
-    <?php include 'includes/revenue.php';?>
 
-    <?php include 'includes/testimonials.php';?>
+    <section class="real-time-sect">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 text-center">
+                    <h2 class="sectionHeading">Lorem Ipsum is <br><span>simply <b><strong>dummy text </strong></b></span></h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="real-cont ">
+                        <figure>
+                            <img src="assets/images/about/chart-line.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Real-Time Fare Predictions</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="real-cont is-active">
+                        <figure>
+                            <img src="assets/images/about/chart-line.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Real-Time Fare Predictions</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="real-cont">
+                        <figure>
+                            <img src="assets/images/about/chart-line.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Real-Time Fare Predictions</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="real-cont is-active">
+                        <figure>
+                            <img src="assets/images/about/chart-line.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Real-Time Fare Predictions</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="real-cont is-active">
+                        <figure>
+                            <img src="assets/images/about/chart-line.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Real-Time Fare Predictions</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="real-cont">
+                        <figure>
+                            <img src="assets/images/about/chart-line.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Real-Time Fare Predictions</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="real-cont is-active">
+                        <figure>
+                            <img src="assets/images/about/chart-line.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Real-Time Fare Predictions</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="real-cont">
+                        <figure>
+                            <img src="assets/images/about/chart-line.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Real-Time Fare Predictions</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <?php include 'includes/faq.php';?>
+    <section class="inn-count">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-11">
+                    <div class="count-in-cont">
+                        <div class="content-count">
+                            <h3>10+</h3>
+                            <p>Years in Commerce</p>
+                        </div>
+                        <div class="content-count">
+                            <h3>800+</h3>
+                            <p>Stores Scaled</p>
+                        </div>
+                        <div class="content-count">
+                            <h3>$420M+</h3>
+                            <p>Managed GMV</p>
+                        </div>
+                        <div class="content-count">
+                            <h3>98.4%</h3>
+                            <p>Client Retention</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <?php include 'includes/cta.php';?>
+    <section class="ab-third-sect">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-5 col-md-12">
+                    <div class="ab-th-cont">
+                        <h2 class="sectionHeading">Lorem Ipsum is simply <br><span><b><strong>text of the</strong></b> printing</span></h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets.
+                            <br><br>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, 
+                        </p>
+                        <a href="javascript:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="ab-th-img">
+                        <figure>
+                            <img src="assets/images/about/abt-img.png" class="img-fluid w-100" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <?php include 'includes/contact.php';?>
+    
+    <section class="mix-sect mix-inn-sect">
+        <h1>Amazon Dashboard</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                    <div class="col-md-11">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="mix-tab-cont">
+                                    <h2 class="sectionHeading">Milestones, <br><span><b><strong>one store at a time.</strong></b></span></h2>
+                                    <div class="tabs" id="tabs">
+
+                                        <div class="tab active" data-image="assets/images/services/tabsImg.png">
+                                            <div class="progress"></div>
+                                            <div class="row">
+                                                <div>
+                                                    <div class="title">Amazon &bull; Home goods</div>
+                                                </div>
+                                                <div class="tab-flex">
+                                                    <div class="sub">in 6 weeks</div>
+                                                    <div class="numbers">$200 &rarr; $1,200/mo</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab" data-image="assets/images/services/tabsImg.png">
+                                            <div class="progress"></div>
+                                            <div class="row">
+                                                <div>
+                                                    <div class="title">Amazon &bull; Electronics</div>
+                                                </div>
+                                                <div class="tab-flex">
+                                                    <div class="sub">in 6 weeks</div>
+                                                    <div class="numbers">$200 &rarr; $1,200/mo</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab" data-image="assets/images/services/tabsImg.png">
+                                            <div class="progress"></div>
+                                            <div class="row">
+                                                <div>
+                                                    <div class="title">Walmart &bull; Supplements</div>
+                                                </div>
+                                                <div class="tab-flex">
+                                                    <div class="sub">in 6 weeks</div>
+                                                    <div class="numbers">$200 &rarr; $1,200/mo</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab" data-image="assets/images/services/tabsImg.png">
+                                            <div class="progress"></div>
+                                            <div class="row">
+                                                <div>
+                                                    <div class="title">Etsy &bull; Candles</div>
+                                                </div>
+                                                <div class="tab-flex">
+                                                    <div class="sub">in 6 weeks</div>
+                                                    <div class="numbers">$200 &rarr; $1,200/mo</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="stage">
+                                    <img class="dash-img" id="dashImg" src="assets/images/services/tabsImg.png" alt="Dashboard preview">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-11">
+                    <div class="mix-cta">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="mix-cta-cont">
+                                    <div class="cont-mix">
+                                        <h3>75%</h3>
+                                        <p>of clients saw 3X revenue</p>
+                                    </div>
+                                    <div class="cont-mix">
+                                        <h3>699+</h3>
+                                        <p>stores launched</p>
+                                    </div>
+                                    <div class="cont-mix">
+                                        <h3>1,235</h3>
+                                        <p>new signups this month</p>
+                                    </div>
+                                    <div class="cont-mix">
+                                        <h3>92%</h3>
+                                        <p>saw growth within 3 months</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="mix-cta-img">
+                                    <figure>
+                                        <img src="assets/images/services/cta-img.png" class="img-fluid w-100" alt="">
+                                        <div class="overlay">
+                                            <a href="javascript:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-sect">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="why-cont">
+                        <h2 class="sectionHeading">Us vs. <br><span><b><strong>going it alone.</strong></b></span></h2>
+                        <p>
+                            Stackline Retail is a performance-based ecommerce management company. For over a decade we’ve done one thing: build, run, and scale online stores for people who want the income without the operation.
+                            <br><br>
+                            Our team of marketplace specialists, media buyers, supply-chain managers, and support agents works as your back office — identifying market gaps, 
+                        </p>
+                        <a href="javascript:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="comp-cont">
+                        <div class="vsBox">
+                            VS
+                        </div>
+                        <div class="comp-one">
+                            <div class="top">
+                                <h3>With STACKLIN.</h3>
+                                <h4>Partner Model</h4>
+                            </div>
+                            <ul>
+                                <li> <i class="fa-regular fa-circle-check"></i> <span><strong>Performance-Tied Fees:</strong> We get compensated strictly when your net distributable profit grows.</span></li>
+                                <li> <i class="fa-regular fa-circle-check"></i> <span><strong>Full-Stack 23-Service Pod:</strong> Seamless access to PPC masters, 3PL coordinators, and catalog architects.</span></li>
+                                <li> <i class="fa-regular fa-circle-check"></i> <span><strong>Proprietary Algorithmic Tooling:</strong> Automated 24/7 Buy-Box defense and keyword rank syndication.</span></li>
+                                <li> <i class="fa-regular fa-circle-check"></i> <span><strong>VP-Level Operators:</strong> Veteran commerce directors running your accounts directly, zero junior turnover.</span></li>
+                                <li> <i class="fa-regular fa-circle-check"></i> <span><strong>Continuous Margin Expansion:</strong> Systematic reductions in aged storage, advertising bleed, and returns.</span></li>
+                            </ul>
+                            <a href="javascript:;">Join the Operating Roster</a>
+                        </div>
+                        <div class="comp-two">
+                            <div class="top">
+                                <h3>Going It Alone / Typical Agency</h3>
+                                <h4>Legacy Model</h4>
+                            </div>
+                            <ul>
+                                <li><i class="fa-regular fa-circle-xmark"></i> <span><strong>High Fixed Overhead:</strong> $10k+ monthly retainers owed even when monthly sales tumble or stock runs dry.</span></li>
+                                <li><i class="fa-regular fa-circle-xmark"></i> <span><strong>Fragmented Freelancers:</strong> You manage 6 different contractors pointing fingers at each other for listing drops.</span></li>
+                                <li><i class="fa-regular fa-circle-xmark"></i> <span><strong>Guesswork Ad Spend:</strong> Autopilot PPC campaigns that inflate vanity revenues while draining bottom-line cash.</span></li>
+                                <li><i class="fa-regular fa-circle-xmark"></i> <span><strong>Junior Account Reps:</strong> Onboarding with an executive founder, then passed to an inexperienced intern.</span></li>
+                                <li><i class="fa-regular fa-circle-xmark"></i> <span><strong>Sluggish 90-Day Ramp:</strong> Endless onboarding spreadsheets and slow ticket turnarounds while competitors surge.</span></li>
+                            </ul>
+                            <p>Average founder time wasted: 28 hrs/week</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="why-bg-box">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6 col-lg-12">
+                                <div class="why-boxes">
+                                    <div class="why-box-card">
+                                        <figure>
+                                            <img src="assets/images/why/boxImg.png" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="why-box-card">
+                                        <figure>
+                                            <img src="assets/images/why/ic-1.png" class="img-fluid" alt="">
+                                        </figure>
+                                        <h3>System Stability</h3>
+                                        <p>
+                                            Algorithmic inventory forecasting and automated account policy defense safeguard your brand from random algorithmic rank suspensions.
+                                        </p>
+                                    </div>
+                                    <div class="why-box-card">
+                                        <figure>
+                                            <img src="assets/images/why/ic-2.png" class="img-fluid" alt="">
+                                        </figure>
+                                        <h3>Financial Freedom</h3>
+                                        <p>
+                                            De-risk single marketplace dependence by unlocking incremental sales velocity across Walmart Marketplace and TikTok Shop without splitting working capital.
+                                        </p>
+                                    </div>
+                                    <div class="why-box-card">
+                                        <figure>
+                                            <img src="assets/images/why/ic-3.png" class="img-fluid" alt="">
+                                        </figure>
+                                        <h3>Scalable Exit Value</h3>
+                                        <p>
+                                            Compounding enterprise enterprise valuation and command higher exit multiples for private equity acquirers by demonstrating multichannel market penetration.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-12">
+                                <div class="why-cont-two">
+                                    <h2 class="sectionHeading">Why another <br><span><b><strong>revenue stream matters.</strong></b></span></h2>
+                                    <p>
+                                        One income source caps your security. Multiple streams keep earnings steady, lower your risk, and open the door to real financial freedom.
+                                    </p>
+                                    <figure>
+                                        <img src="assets/images/why/whyImg.png" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="test-sect">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-6 col-md-8">
+                    <h2 class="sectionHeading">Hear it directly <span>from  <br><b><strong>store owners.</strong></b></span></h2>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="testBtn">
+                        <a href="javascript:;" class="prev btn"><i class="fa-solid fa-arrow-left-long"></i></a>
+                        <a href="javascript:;" class="next btn"><i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-lg-6 col-md-8">
+                    <div class="test-slider">
+                        <div class="test-cont">
+                            <p>"The team provided exceptional Busines guidance tailored to my needs. Their expert advice helped me grow my Business while ensuring Locksmith security for the future. I highly recommend their services for anyone seeking trusted, financial solutions!!"</p>
+                            <div class="test-box">
+                                <div class="bio">
+                                    <figure>
+                                        <img src="assets/images/testimonials/test.png" alt="">
+                                    </figure>
+                                    <div class="name">
+                                        <h4>Arlene McCoy</h4>
+                                        <h5>Co. Founder</h5>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <figure>
+                                        <img src="assets/images/testimonials/quote.png" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test-cont">
+                            <p>"The team provided exceptional Busines guidance tailored to my needs. Their expert advice helped me grow my Business while ensuring Locksmith security for the future. I highly recommend their services for anyone seeking trusted, financial solutions!!"</p>
+                            <div class="test-box">
+                                <div class="bio">
+                                    <figure>
+                                        <img src="assets/images/testimonials/test.png" alt="">
+                                    </figure>
+                                    <div class="name">
+                                        <h4>Arlene McCoy</h4>
+                                        <h5>Co. Founder</h5>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <figure>
+                                        <img src="assets/images/testimonials/quote.png" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test-cont">
+                            <p>"The team provided exceptional Busines guidance tailored to my needs. Their expert advice helped me grow my Business while ensuring Locksmith security for the future. I highly recommend their services for anyone seeking trusted, financial solutions!!"</p>
+                            <div class="test-box">
+                                <div class="bio">
+                                    <figure>
+                                        <img src="assets/images/testimonials/test.png" alt="">
+                                    </figure>
+                                    <div class="name">
+                                        <h4>Arlene McCoy</h4>
+                                        <h5>Co. Founder</h5>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <figure>
+                                        <img src="assets/images/testimonials/quote.png" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="test-count">
+                        <h3>12K+</h3>
+                        <p>Verified by Real Customers on Trustpilot for Trusted Reviews.</p>
+                    </div>
+                    <hr>
+                    <div class="test-count">
+                        <h3>4.8/5</h3>
+                        <p>Delivering an Average Client Rating Through Quality Service and Trust.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-sect">
+        <div class="container-fluid p-0">
+            <div class="row m-0 justify-content-end">
+                <div class="col-xl-5 col-lg-6">
+                    <div class="faq-cont">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What types of payment do you accept?
+                                </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Do you offer emergency repair services?
+                                </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I get a free estimate before the work starts?
+                                </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Can I book an appointment online?
+                                </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    How much will the repair cost?
+                                </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 p-0">
+                    <div class="faq-img">
+                        <h2 class="sectionHeading">Your <span>questions, <br><b><strong>answered</strong></b></span> straight.</h2>
+                        <p>
+                            Stackline Retail is a performance-based ecommerce management company. For over a decade 
+                        </p>
+                        <figure>
+                            <img src="assets/images/why/faqImg.png" class="img-fluid w-100" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-sect">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-8">
+                    <div class="cta-cont">
+                        <h2 class="sectionHeading">Ready to <span><b><strong>drive growth</strong></b> today?</span></h2>
+                        <p>Stackline Retail is a performance-based ecommerce management company. For over a decade </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cta-cont-two">
+                        <a href="javascipt:;" class="themeBtn"><i class="fa-solid fa-phone"></i> 123 456 789 0</a>
+                        <a href="javascipt:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php include 'includes/contact.php';?> 
 
     <?php include 'includes/footer.php';?>
+    
 </body>
 
 </html>

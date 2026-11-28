@@ -4,301 +4,243 @@ $pageDescription = "";
 
 include('../includes/header.php'); ?>
 
-<body class="serv-body">
+<body>
 
     <?php include '../includes/menu.php';?>
-
-
-    <?php 
-    $bannerHeading = "Walmart rewards discipline. We supply it daily.";
-    $bannerParagraph = "Seller approval, catalog quality, Buy Box pricing, WFS logistics, and scorecard compliance — run daily by a dedicated team while you track everything from a live dashboard. You own the account. We do the work.";
-    include '../includes/inner-banner.php';?>
     
-
-    <section class="logo-marquee">
-        <div class="container-fluid p-0">
-            <div class="row m-0">
-                <div class="col-md-12 p-0">
-                    <div class="logo-slider" dir="rtl" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
-                        <div class="img"><h3><figure><img src="assets/images/logo/logo-white.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+    
+    <section class="main-banner inner-banner walmart-banner">
+        <img src="assets/images/hero/inner-elm.png" class="img-fluid inner-elm" alt="">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-7">
+                    <div class="banCont">
+                        <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Lorem Ipsum is simply <b>dummy the</b> printing.</h1>
+                        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                            STACKLIN takes full operational command of your multi-channel stores across Amazon, Shopify, Walmart & TikTok Shop. Pure profit- share alignment, zero headcount drag.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="serv-inn-sect padding-sect">
+        <div class="container">
+            <div class="row justify-content-evenly align-items-center">
+                <div class="col-lg-6">
+                    <div class="cnt-in-img">
+                        <figure>
+                            <img src="assets/images/services/wal-pg-img.png" class="img-fluid w-100" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="cnt-in-cont">
+                        <h2 class="sectionHeading">The operating team <span><b><strong>behind 800+</strong></b> profitable stores.</span></h2>
+                        <p>
+                            Stackline Retail is a performance-based ecommerce management company. For over a decade we’ve done one thing: build, run, and scale online stores for people who want the income without the operation.
+                            <br><br>
+                            Our team of marketplace specialists, media buyers, supply-chain managers, and support agents works as your back office — identifying market gaps, launching your storefront, and running the daily grind while you track results from a live dashboard. You own the store and the brand, always. We simply make it perform.
+                            <br><br>
+                            Stackline Retail is a performance-based ecommerce management company. For over a decade we’ve done one thing: build, run, and scale online stores for people who want the income without the operation.
+                        </p>
+                        <div class="opt-box">
+                            <a href="javascript:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <?php 
-    $subtitle = "Overview";
-    $sectionHeading = "A tougher door. A better room.";
-    $sectionText = "
-        Walmart Marketplace is deliberately harder to enter than other platforms — and that's exactly the opportunity. Fewer approved sellers means thinner competition for the buyers of America's largest retailer. Our Walmart automation service starts at the door: we prepare your application and documentation to clear Walmart's vetting, then build a catalog with complete specs and category-correct attributes that earn strong listing quality scores.
-        <br><br>
-        Once you're selling, the discipline begins: pricing tuned for Buy Box share without racing to zero margin, inventory synchronized so overselling never damages your metrics, and the seller scorecard — on-time delivery, order defect rate, tracking validity — reviewed weekly with corrective action taken before Walmart takes any. You own the account; we keep it compounding.
-    ";
-    $sectionlist = "
-        <ul>
-            <li><span><i class=\"fa-solid fa-circle-check\"></i></span> Approval application prepared to pass Walmart's vetting cleanly</li>
-            <li><span><i class=\"fa-solid fa-circle-check\"></i></span> Catalog built to Walmart's listing-quality standards, spec by spec</li>
-            <li><span><i class=\"fa-solid fa-circle-check\"></i></span> Buy Box pricing that defends margin instead of racing to zero</li>
-            <li><span><i class=\"fa-solid fa-circle-check\"></i></span> Weekly report: sales, margin, scorecard metrics, next actions</li>
-        </ul>
-    ";
-    include '../includes/service-about.php';?>
-
-
-    <?php 
-    $countItems = [
-        ["number" => "150+", "text" => "Walmart stores launched & managed"],
-        ["number" => "90%+", "text" => "Average on-time delivery maintained"],
-        ["number" => "92%", "text" => "Clients see growth within 3 months"],
-        ["number" => "Weekly", "text" => "Seller-scorecard compliance reviews"],
-    ];
-
-    include '../includes/service-count.php';
-    ?>
-
-
-
-
-<?php 
-$subtitle = "What's included";
-$sectionHeading = "Everything Walmart demands, delivered weekly.";
-$sectionText = "Approval to assortment, Buy Box to scorecard — nine workstreams managed to the standards Walmart actually measures.";
-
-$cardItems = [
-    [
-        "img"   => "assets/images/services/icons/av-8.webp",
-        "icon"  => "assets/images/services/icons/Vector-4.webp",
-        "title" => "Marketplace approval support",
-        "text"  => "Application guidance and documentation prepared to clear Walmart's selective seller vetting the first time.",
-        "tag"   => "Approval before anything",
-        "link"  => "javascript:;",
-    ],
-    [
-        "img"   => "assets/images/services/icons/av-17.webp",
-        "icon"  => "assets/images/services/icons/Vector-15.webp",
-        "title" => "Catalog & listing quality",
-        "text"  => "Complete item specs, rich content, and category-correct attributes for maximum listing quality scores — the ranking currency on Walmart.",
-        "tag"   => "Every SKU, to standard",
-        "link"  => "javascript:;",
-    ],
-    [
-        "img"   => "assets/images/services/icons/av-12.webp",
-        "icon"  => "assets/images/services/icons/Vector-10.webp",
-        "title" => "WFS & fulfilment operations",
-        "text"  => "WFS enrollment, prep, and inbound shipments where it wins on speed and cost; disciplined seller fulfilment where it doesn't.",
-        "tag"   => "Chosen per SKU",
-        "link"  => "javascript:;",
-    ],
-    [
-        "img"   => "assets/images/services/icons/av-18.webp",
-        "icon"  => "assets/images/services/icons/Vector-16.webp",
-        "title" => "Buy Box pricing strategy",
-        "text"  => "Repricing rules built for Walmart's algorithm — winning share while defending your floor margin around the clock.",
-        "tag"   => "24 7 automated",
-        "link"  => "javascript:;",
-    ],
-    [
-        "img"   => "assets/images/services/icons/av-19.webp",
-        "icon"  => "assets/images/services/icons/Vector-17.webp",
-        "title" => "Scorecard compliance",
-        "text"  => "On-time delivery, order defect rate, and tracking validity reviewed weekly — corrective action taken before Walmart takes any.",
-        "tag"   => "Reviewed weekly",
-        "link"  => "javascript:;",
-    ],
-    [
-        "img"   => "assets/images/services/icons/av-20.webp",
-        "icon"  => "assets/images/services/icons/Vector-18.webp",
-        "title" => "Walmart Connect advertising",
-        "text"  => "Sponsored Search campaigns tuned weekly for profitable return — spend follows proof, never habit.",
-        "tag"   => "Weekly optimization",
-        "link"  => "javascript:;",
-    ],
-    [
-        "img"   => "assets/images/services/icons/av-15.webp",
-        "icon"  => "assets/images/services/icons/Vector-13.webp",
-        "title" => "Customer service & reviews",
-        "text"  => "Buyer messages answered within SLA, disputes managed, and review growth run inside Walmart's policies.",
-        "tag"   => "Policy-safe, always",
-        "link"  => "javascript:;",
-    ],
-    [
-        "img"   => "assets/images/services/icons/av-16.webp",
-        "icon"  => "assets/images/services/icons/Vector-14.webp",
-        "title" => "Profit-level reporting",
-        "text"  => "Sales, referral fees, fulfilment costs, and true net per SKU — reported weekly in plain language, with next actions listed. ",
-        "tag"   => "Every Friday",
-        "link"  => "javascript:;",
-    ],
-    [
-        "img"   => "assets/images/services/icons/av-9.webp",
-        "icon"  => "assets/images/services/icons/Vector-7.webp",
-        "title" => "Assortment expansion",
-        "text"  => "Winning SKUs deepen, new products launch on the data, and multi-channel sync keeps Walmart aligned with your other stores.",
-        "tag"   => "From month one",
-        "link"  => "javascript:;",
-    ],
-];
-
-include '../includes/service-cards.php';
-?>
- 
-
-    <!-- <section class="serv-card-sect srva-sect">
+    <section class="inn-count">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-10 text-center">
-                    <h3 class="subtitle"><span><img src="assets/images/hero/line.webp" alt=""></span>What's included</h3>
-                    <h2 class="sectionHeading">Every moving part, under one accountable team.</h2>
+                <div class="col-md-11">
+                    <div class="count-in-cont">
+                        <div class="content-count">
+                            <h3>10+</h3>
+                            <p>Years in Commerce</p>
+                        </div>
+                        <div class="content-count">
+                            <h3>800+</h3>
+                            <p>Stores Scaled</p>
+                        </div>
+                        <div class="content-count">
+                            <h3>$420M+</h3>
+                            <p>Managed GMV</p>
+                        </div>
+                        <div class="content-count">
+                            <h3>98.4%</h3>
+                            <p>Client Retention</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="serv-inn-sect">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h2 class="sectionHeading">Every moving part, <span>under <b><strong>one accountable</strong></b> team.</span></h2>
                     <p>Nine workstreams, one weekly report. This is the full operation — not a store build with a goodbye email.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-1.webp" class="img-fluid srvin-img" alt="">
+            <div class="row mt-3">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Vector.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Branded store design</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            A custom storefront with conversion-focused layout, trust elements, and fast load times. Buyers should feel a brand, not a template.
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">Included in every build</a>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-2.webp" class="img-fluid srvin-img" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Test.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Product testing framework</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            Structured creative and audience tests find winners on small budgets. We scale evidence, never enthusiasm.
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">Continuous, every month</a>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-3.webp" class="img-fluid srvin-img" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Vector-1.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Supplier network & routing</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            Vetted suppliers with enforced shipping standards. Orders route automatically the moment they're placed — and slow suppliers get replaced.
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">Quality-enforced</a>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-4.webp" class="img-fluid srvin-img" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Vector-2.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Automated fulfilment flow</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            Order processing, tracking sync, and delivery notifications handled end to end. Your customers stay informed; you stay out of it.
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">Zero owner touches</a>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-5.webp" class="img-fluid srvin-img" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Vector-3.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Customer support desk</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            Pre-sale questions, shipping queries, and refunds handled in your brand's voice — with sensitive cases escalated to you first.
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">7-day coverage</a>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-6.webp" class="img-fluid srvin-img" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Vector-4.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Ad & funnel management</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            Paid campaigns and landing flows managed against one metric: profitable customer acquisition — not vanity traffic.
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">Weekly optimization</a>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-7.webp" class="img-fluid srvin-img" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Vector-5.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Margin & KPI reporting</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            True profit per product after ad spend, fees, and refunds — reported weekly in plain language. 
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">Every Friday</a>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-8.webp" class="img-fluid srvin-img" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Vector-6.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Store health & compliance</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            Payment-provider standards, dispute rates, and policy compliance monitored so growth never risks the store itself.
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">Monitored daily</a>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srvin-card">
-                        <img src="assets/images/services/icons/av-9.webp" class="img-fluid srvin-img" alt="">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ser-in-card">
                         <figure>
-                            <img src="assets/images/services/icons/Vector-7.webp" class="img-fluid" alt="">
+                            <img src="assets/images/services/srv-1.webp" class="img-fluid" alt="">
                         </figure>
-                        <h3>Scaling playbook</h3>
+                        <h3>Shopify Dropshipping Automation</h3>
                         <p>
-                            Winners get budget, upsells, and catalog extensions on a defined schedule. What worked becomes a system.
+                            We build a branded Shopify storefront and run the entire dropshipping operation behind it — supplier coordination, order routing, tracking updates, and customer support — so inventory never touches your hands and margins stay protected.
                         </p>
-                        <a href="javascript:;">From month one</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <section class="test-in-sect">
-        <div class="container-fluid p-0">
-            <div class="row m-0">
-                <div class="col-12 p-0">
-                    <!-- <div class="review-logo-slider" dir="rtl">
-                        <div class="img"><h3>Walmart Automation <span>*</span></h3></div>
-                        <div class="img"><h3>Walmart Automation <span>*</span></h3></div>
-                        <div class="img"><h3>Walmart Automation <span>*</span></h3></div>
-                        <div class="img"><h3>Walmart Automation <span>*</span></h3></div>
-                        <div class="img"><h3>Walmart Automation <span>*</span></h3></div>
-                        <div class="img"><h3>Walmart Automation <span>*</span></h3></div>
-                        <div class="img"><h3>Walmart Automation <span>*</span></h3></div>
-                        <div class="img"><h3>Walmart Automation <span>*</span></h3></div>
-                    </div> -->
-                    <div class="marquee-wrap" data-marquee data-text="Walmart Automation" data-speed="50">
-                        <div class="marquee-track"></div>
+                        <ul>
+                            <li>Winning product listing framework</li>
+                            <li>Automated order & fulfillment flow</li>
+                            <li>Storefront branding & conversion design</li>
+                        </ul>
+                        <a href="javascript:;">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
             </div>
@@ -306,109 +248,446 @@ include '../includes/service-cards.php';
     </section>
 
     
-    <?php include '../includes/service-proof.php';?>
 
 
-    <?php 
-    $subtitle = "How it works";
-    $sectionHeading = "From approval to hands-off Walmart, in four phases.";
-
-    $stepItems = [
-        [
-            "icon"  => "assets/images/services/icons/stp-1.webp",
-            "step"  => "Step - 01",
-            "title" => "Approval & onboarding",
-            "text"  => "Application and documentation prepared; your seller account cleanly approved.",
-        ],
-        [
-            "icon"  => "assets/images/services/icons/stp-2.webp",
-            "step"  => "Step - 02",
-            "title" => "Catalog build",
-            "text"  => "Products listed with complete, quality-scored content — spec by spec.",
-        ],
-        [
-            "icon"  => "assets/images/services/icons/stp-3.webp",
-            "step"  => "Step - 03",
-            "title" => "Operations live",
-            "text"  => "Pricing, inventory, orders, and ads run daily with a fixed weekly report.",
-        ],
-        [
-            "icon"  => "assets/images/services/icons/stp-4.webp",
-            "step"  => "Step - 04",
-            "title" => "Optimize & expand",
-            "text"  => "Winning SKUs scale; assortment grows on the data, synced with your other channels.",
-        ],
-    ];
-
-    $stepFooterText = "Typical timeline: kickoff to first sales in 3–4 weeks.";
-    $stepFooterLinkText = "Map my timeline";
-    $stepFooterLink = "javascript:;";
-
-    include '../includes/service-steps.php';
-    ?>
+    <div class="marq-slides">
+            <div class="container-fluid p-0">
+                <div class="row m-0">
+                    <div class="col-md-12 p-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="logo-slider-two"> 
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo-og.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="row m-0">
+                    <div class="col-md-12 p-0" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="logo-slider" dir="rtl">
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                            <div class="img"><h3><figure><img src="assets/images/services/logo.png" class="img-fluid" alt=""></figure><span>*</span></h3></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
 
 
+    <section class="mix-sect mix-inn-sect">
+        <h1>Amazon Dashboard</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                    <div class="col-md-11">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="mix-tab-cont">
+                                    <h2 class="sectionHeading">Milestones, <br><span><b><strong>one store at a time.</strong></b></span></h2>
+                                    <div class="tabs" id="tabs">
 
-    <?php 
-    $ctaHeading = "Already selling on Walmart but stuck below potential?";
-    $ctaText = "We take over existing Walmart accounts — catalog, pricing, and scorecard rescue included. Free audit first, honest verdict included.";
-    $ctaBtnText = "Audit my existing store";
-    $ctaBtnLink = "javascript:;";
+                                        <div class="tab active" data-image="assets/images/services/tabsImg.png">
+                                            <div class="progress"></div>
+                                            <div class="row">
+                                                <div>
+                                                    <div class="title">Amazon &bull; Home goods</div>
+                                                </div>
+                                                <div class="tab-flex">
+                                                    <div class="sub">in 6 weeks</div>
+                                                    <div class="numbers">$200 &rarr; $1,200/mo</div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-    include '../includes/service-cta.php';
-    ?>
+                                        <div class="tab" data-image="assets/images/services/tabsImg.png">
+                                            <div class="progress"></div>
+                                            <div class="row">
+                                                <div>
+                                                    <div class="title">Amazon &bull; Electronics</div>
+                                                </div>
+                                                <div class="tab-flex">
+                                                    <div class="sub">in 6 weeks</div>
+                                                    <div class="numbers">$200 &rarr; $1,200/mo</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab" data-image="assets/images/services/tabsImg.png">
+                                            <div class="progress"></div>
+                                            <div class="row">
+                                                <div>
+                                                    <div class="title">Walmart &bull; Supplements</div>
+                                                </div>
+                                                <div class="tab-flex">
+                                                    <div class="sub">in 6 weeks</div>
+                                                    <div class="numbers">$200 &rarr; $1,200/mo</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab" data-image="assets/images/services/tabsImg.png">
+                                            <div class="progress"></div>
+                                            <div class="row">
+                                                <div>
+                                                    <div class="title">Etsy &bull; Candles</div>
+                                                </div>
+                                                <div class="tab-flex">
+                                                    <div class="sub">in 6 weeks</div>
+                                                    <div class="numbers">$200 &rarr; $1,200/mo</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="stage">
+                                    <img class="dash-img" id="dashImg" src="assets/images/services/tabsImg.png" alt="Dashboard preview">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="moving-sect">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h2 class="sectionHeading">Every moving part,<span> under <br><b><strong>one accountable</strong></b> team.</span></h2>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-5">
+                <div class="col-lg-3 col-md-12">
+                    <div class="mov-left-card">
+                        <div class="mov-head">
+                            <span>
+                                <figure>
+                                    <img src="assets/images/services/Target.png" class="imgf-fluid" alt="">
+                                </figure>
+                            </span>
+                            <span>
+                                <h3>Niche & brand build</h3>
+                            </span>
+                        </div>
+                        <p>
+                            We define the niche and angle, then design the branded storefront around it.
+                        </p>
+                    </div>
+                    <div class="mov-left-card">
+                        <div class="mov-head">
+                            <span>
+                                <figure>
+                                    <img src="assets/images/services/Target.png" class="imgf-fluid" alt="">
+                                </figure>
+                            </span>
+                            <span>
+                                <h3>Niche & brand build</h3>
+                            </span>
+                        </div>
+                        <p>
+                            We define the niche and angle, then design the branded storefront around it.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="mov-cont">
+                        <figure>
+                            <img src="assets/images/services/wal-mov.png" class="img-fluid w-100" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="mov-right-card">
+                        <div class="mov-head">
+                            <span>
+                                <figure>
+                                    <img src="assets/images/services/Target.png" class="imgf-fluid" alt="">
+                                </figure>
+                            </span>
+                            <span>
+                                <h3>Niche & brand build</h3>
+                            </span>
+                        </div>
+                        <p>
+                            We define the niche and angle, then design the branded storefront around it.
+                        </p>
+                    </div>
+                    <div class="mov-right-card">
+                        <div class="mov-head">
+                            <span>
+                                <figure>
+                                    <img src="assets/images/services/Target.png" class="imgf-fluid" alt="">
+                                </figure>
+                            </span>
+                            <span>
+                                <h3>Niche & brand build</h3>
+                            </span>
+                        </div>
+                        <p>
+                            We define the niche and angle, then design the branded storefront around it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+    <section class="part-sect">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row align-items-end justify-content-between">
+                <div class="col-lg-6">
+                    <div class="part-Cont">
+                        <h2 class="sectionHeading">A strategic partner, <span>not <b><strong>another vendor.</strong></b></span></h2>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="part-Cont">
+                        <p>Every store gets a dedicated team, a proven playbook, and pricing that only wins when you do.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row part-slider">
+                <div class="col-md-4">
+                    <div class="part-card">
+                        <figure>
+                            <img src="assets/images/about/Icon.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Completely managed services</h3>
+                        <p> We run every part of your store — product research, listings, ads, fulfilment, and support — so it generates revenue without your daily involvement.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="part-card">
+                        <figure>
+                            <img src="assets/images/about/Icon.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>No experience required</h3>
+                        <p>You don't need technical skills or ecommerce history. Our team handles setup, management, and optimization from day one.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="part-card">
+                        <figure>
+                            <img src="assets/images/about/Icon.png" class="img-fluid" alt="">
+                        </figure>
+                        <h3>Performance-based pricing </h3>
+                        <p>No fat retainers. Our compensation is tied to your store's results — we only do well when your revenue grows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <?php 
-    $subtitle = "Why Syntrax Ai";
-    $sectionHeading = "What separates us on Walmart.";
+    <section class="test-sect test-ser-inner">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-6 col-md-8">
+                    <h2 class="sectionHeading">Hear it directly <span>from  <br><b><strong>store owners.</strong></b></span></h2>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="testBtn">
+                        <a href="javascript:;" class="prev btn"><i class="fa-solid fa-arrow-left-long"></i></a>
+                        <a href="javascript:;" class="next btn"><i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-lg-6 col-md-8">
+                    <div class="test-slider">
+                        <div class="test-cont">
+                            <p>"The team provided exceptional Busines guidance tailored to my needs. Their expert advice helped me grow my Business while ensuring Locksmith security for the future. I highly recommend their services for anyone seeking trusted, financial solutions!!"</p>
+                            <div class="test-box">
+                                <div class="bio">
+                                    <figure>
+                                        <img src="assets/images/testimonials/test.png" alt="">
+                                    </figure>
+                                    <div class="name">
+                                        <h4>Arlene McCoy</h4>
+                                        <h5>Co. Founder</h5>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <figure>
+                                        <img src="assets/images/testimonials/quote.png" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test-cont">
+                            <p>"The team provided exceptional Busines guidance tailored to my needs. Their expert advice helped me grow my Business while ensuring Locksmith security for the future. I highly recommend their services for anyone seeking trusted, financial solutions!!"</p>
+                            <div class="test-box">
+                                <div class="bio">
+                                    <figure>
+                                        <img src="assets/images/testimonials/test.png" alt="">
+                                    </figure>
+                                    <div class="name">
+                                        <h4>Arlene McCoy</h4>
+                                        <h5>Co. Founder</h5>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <figure>
+                                        <img src="assets/images/testimonials/quote.png" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test-cont">
+                            <p>"The team provided exceptional Busines guidance tailored to my needs. Their expert advice helped me grow my Business while ensuring Locksmith security for the future. I highly recommend their services for anyone seeking trusted, financial solutions!!"</p>
+                            <div class="test-box">
+                                <div class="bio">
+                                    <figure>
+                                        <img src="assets/images/testimonials/test.png" alt="">
+                                    </figure>
+                                    <div class="name">
+                                        <h4>Arlene McCoy</h4>
+                                        <h5>Co. Founder</h5>
+                                    </div>
+                                </div>
+                                <div class="quote">
+                                    <figure>
+                                        <img src="assets/images/testimonials/quote.png" class="img-fluid" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="test-count">
+                        <h3>12K+</h3>
+                        <p>Verified by Real Customers on Trustpilot for Trusted Reviews.</p>
+                    </div>
+                    <hr>
+                    <div class="test-count">
+                        <h3>4.8/5</h3>
+                        <p>Delivering an Average Client Rating Through Quality Service and Trust.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    $wayItems = [
-        [
-            "title" => "Standards-first operation",
-            "text"  => "We manage to Walmart's scorecard, because on this platform the scorecard is the growth strategy — visibility follows performance.",
-        ],
-        [
-            "title" => "You own everything",
-            "text"  => "The seller account, the catalog, and the revenue are registered to you. We're the operating team, never a co-owner — and replaceable at any time, which is the accountability you want.",
-        ],
-        [
-            "title" => "Multi-channel coordination",
-            "text"  => "Walmart runs alongside your Amazon or Shopify channels with synchronized inventory and pricing — the channels reinforce each other instead of conflicting.",
-        ],
-    ];
+    <section class="faq-sect">
+        <div class="container-fluid p-0">
+            <div class="row m-0 justify-content-end">
+                <div class="col-xl-5 col-lg-6">
+                    <div class="faq-cont">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What types of payment do you accept?
+                                </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Do you offer emergency repair services?
+                                </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I get a free estimate before the work starts?
+                                </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Can I book an appointment online?
+                                </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    How much will the repair cost?
+                                </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We offer emergency repair services to help you get back on the road as quickly as possible. Our skilled mechanics are available to handle urgent issues, whether it’s a breakdown.
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 p-0">
+                    <div class="faq-img">
+                        <h2 class="sectionHeading">Your <span>questions, <br><b><strong>answered</strong></b></span> straight.</h2>
+                        <p>
+                            Stackline Retail is a performance-based ecommerce management company. For over a decade 
+                        </p>
+                        <figure>
+                            <img src="assets/images/why/faqImg.png" class="img-fluid w-100" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    include '../includes/service-way.php';
-    ?>
+    <section class="cta-sect">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-8">
+                    <div class="cta-cont">
+                        <h2 class="sectionHeading">Ready to <span><b><strong>drive growth</strong></b> today?</span></h2>
+                        <p>Stackline Retail is a performance-based ecommerce management company. For over a decade </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cta-cont-two">
+                        <a href="javascipt:;" class="themeBtn"><i class="fa-solid fa-phone"></i> 123 456 789 0</a>
+                        <a href="javascipt:;" class="themeBtn">Book a Strategy Call <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
-
-    <?php include '../includes/testimonials.php';?>
-
-    <?php include '../includes/faq.php';?>
-
-
-
-    <?php 
-    $subtitle = "One call. Zero pressure.";
-    $sectionHeading = "Your Walmart store could be selling in 5 weeks.";
-    $sectionText = "Free Walmart audit on the first call — approval odds, category, and a realistic curve. We only do well when your store does.";
-
-    $ctaBtnText = "Get my free store plan";
-    $ctaBtnLink = "javascript:;";
-    $ctaPhone = "+1 (123) 456 789";
-    $ctaPhoneLink = "tel:+1(123)456789";
-    $ctaEmail = "hello@syntraxai.com";
-    $ctaEmailLink = "mailto:hello@syntraxai.com";
-
-    $ctaFootnote = "🔒 No upfront fees · Performance-based pricing · Cancel anytime · You own everything";
-
-    include '../includes/service-cta-final.php';
-    ?>
-
-    <?php include '../includes/explore-service.php';?>
+    <?php include '../includes/contact.php';?> 
 
     <?php include '../includes/footer.php';?>
+    
 </body>
 
 </html>

@@ -1,0 +1,47 @@
+/* Quiet, deliberate motion: only opacity and transforms animate on entrance. */
+:root { --motion-ease: cubic-bezier(.22, 1, .36, 1); }
+body { transition: none; }
+.main-banner { position: relative; isolation: isolate; overflow: clip; }
+.support-box li span { margin-right: 6px; }
+.main-banner::before { z-index: -1; pointer-events: none; }
+html { scroll-padding-top: 90px; }
+.motion-pending { opacity: 0; transform: translate3d(0, 22px, 0); }
+.motion-reveal {
+  transition: opacity 850ms var(--motion-ease), transform 850ms var(--motion-ease);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.motion-reveal:not(.motion-pending) { opacity: 1; transform: none; }
+.themeBtn {
+  transition: transform 350ms var(--motion-ease), background-color 250ms ease,
+    color 250ms ease, box-shadow 350ms ease;
+}
+.themeBtn i { transition: transform 350ms var(--motion-ease); }
+.themeBtn:focus-visible, a:focus-visible, button:focus-visible {
+  outline: 2px solid #d79b4c; outline-offset: 5px;
+}
+@media (hover: hover) and (pointer: fine) {
+  .themeBtn:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(2,12,81,.14); }
+  .themeBtn:hover i { transform: translateX(3px); }
+  .ab-box, .blg-card { transition: translate 450ms var(--motion-ease); }
+  .ab-box:hover, .blg-card:hover { translate: 0 -5px; }
+}
+.motion-paused .marquee-track, .motion-paused .ser-income-path path,
+.page-paused .marquee-track, .page-paused .ser-income-path path {
+  animation-play-state: paused !important;
+}
+@media (max-width: 767px) {
+  .main-banner::before { display: none; }
+  .main-banner:not(.inner-banner) { min-height: auto; padding: 150px 0 60px; }
+  .main-banner .banCont { margin: 0; padding: 0; }
+  .motion-pending { transform: translate3d(0, 12px, 0); }
+  .motion-reveal { transition-duration: 550ms; transition-delay: 0ms; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important; transition-delay: 0ms !important;
+    scroll-behavior: auto !important;
+  }
+  .motion-pending { opacity: 1; transform: none; }
+}

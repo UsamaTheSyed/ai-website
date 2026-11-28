@@ -5,1229 +5,1045 @@
 }
 
 @media (max-width: 1750px) {
-  .banCont {
-    margin: 0;
-    padding-right: 4rem;
-  }
-  .about-intwo-sect {
-    padding: 2rem 0;
-   }
-  .ban-img {
-      margin-right: -3rem;
-  }
-  .banCont h1 {
-    font-size: 4rem;
-  }
-  .moc-widget {
-    transform: translate(6%, -35%);
+    .sectionHeading {
+        font-size: 3.5rem;
+    }
+    footer h1 {
+        font-size: 18rem;
     }
 
-    .moc-orbit {
-        width: min(60vw, 700px);
+    .mix-sect h1 {
+        font-size: 10rem;
     }
-
+    .ban-elm-two {
+        width: 54.35%;
+    }
     .ban-cont-hero {
-        margin-left: -7rem;
+        margin-right: -0.75rem;
+        margin-bottom: -28px;
+        margin-left: -250px;
     }
-
-    .ban-cont-hero figure img.img-fluid {
-        width: 90%;
-    }
-    .line-two {
-        top: 45%;
-        left: 27%;
-    }
-    .modal-dialog {
-        max-width: 70vw;
-    }
-
-    .formpop .modal-content {
-        min-height: 90vh;
-    }
-
-    .mdb-right h3 {
-        font-size: 1.75rem;
-    }
-
 }
 @media (max-width: 1600px) {
-  .moc-tag img {
-    width: 8vw;
-  }
-  .cta-cont:before {
-    top: 10px;
-    left: 10px;
-    right: -10px;
-    bottom: -10px;
-  }
-  .line-one {
-        top: 41%;
-    }
-
-    .line-two {
-        top: 41%;
-    }
-
-    img.line-three {
-        top: 40%;
-    }
-  .serv-ab-cont {
-        padding: 5rem 5rem 5rem 4rem;
-    }
-
-  .moc-orbit {
-    width: min(60vw, 650px);
-  }
-  .banCont h1 {
-    font-size: 3.5rem;
-  }
-  .about-intwo-sect .aboutCont {
-    padding: 50px 0px 50px 0;
-  }
-
-  .support-box ul li {
-      font-size: 12px;
-  }
-
-  .img h3 {
-      font-size: 2.25rem;
-  }
-
-  .sectionHeading {
-      font-size: 2.75rem;
-  }
-
-  .about-two-sect:before {
-      height: 50%;
-  }
-
-  .why-sect p {
-  }
-
-  .why-box h3 {
-      font-size: 1.35rem;
-  }
-
-  .trg-box h3 {
-      font-size: 1.25rem;
-  }
-
-  .count-icon-box p {
-      font-size: 13px;
-      line-height: 1.35;
-  }
-
-  .count-icon-box {
-      padding: 0 1.5rem;
-  }
-
-  .serv-slider {
-      margin: 60px 0 0;
-  }
-
-  .how-cont {padding: 1.5rem;margin: 7rem 0 0;}
-
-  .how-box {
-      padding: 5rem 3rem;
-  }
-
-  .how-box .col-md:nth-child(odd) .how-cont {
-      margin: 3rem 0 0;
-  }
-
-  .fd-cont .nav-tabs {
-      gap: 10px;
-  }
-
-  .fd-cont .nav-tabs .nav-link {
-      text-align: left;
-      width: 178px;
-  }
-
-  .fb-cont {
-      padding: 1.5rem;
-  }
-
-  .cnt-box h4 {
-      font-size: 1.25rem;
-  }
-
-  .cnt-content {
-      padding: 2.5rem 2rem 1rem;
-  }
-
-  .cnt-box.cnt-box-bef span:last-child p {
-      font-size: 12px;
-  }
-
-  .foot-cont h3 {
-      font-size: 1.1rem;
-  }
-
-  .foot-cont ul li {
-      padding: 5px 0;
-      font-size: 1rem;
-  }
-
-  .foot-cont ul li a {
-      font-size: 1rem;
-  }
-  .arr-svg {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1440px) {
-  html {
-    font-size: 14px;
-  }
-  .img h3 figure {
-    width: 65%;
-   }
-  .blg-card .overlay .meta-box {
-        flex: 0 0 70%;
-    }
-
-    .blg-card .overlay:before {
-        height: 55px;
-        width: 70%;
-    }
-  .recent-post .rp-title {
-        font-size: 1.1rem;
-    }
-
-    .blog-detail-sect {
-        padding: 1rem 0;
-    }
-  .serv-ab-cont.sera-cont {
-        padding: 5rem 5rem 5rem 4rem;
-    }
-  .faq-body .test-in-sect {
-        padding: 5rem 0;
-    }
-    .blg-card .overlay .meta-box h4 {
-        font-size: 14px;
-    }
-
-    .blg-card .overlay .meta-box h5 {
-        font-size: 12px;
-        padding: 7px 14px;
-    }
-  .star {
-        font-size: 70px;
-    }
-
-    .item .word {
-        font-size: 70px;
-    }
-  .ban-cont-hero figure img.img-fluid {
-        width: 80%;
-        margin: 0;
-    }
-
-    .ban-cont-hero {
-        margin-left: -5rem;
-    }
-
-    .main-banner {
-        margin-top: 0;
-    }
-
-    .moc-orbit {
-        width: min(60vw, 550px);
-    }
-
-    .ban-cont-hero figure {
-        text-align: center;
-    }
-
-    .desktop-nav > ul {
-        gap: 20px;
-    }
-    .moc-tag img {
-        width: 7vw;
-    }
-  .main-banner.inner-banner {
-        min-height: 600px;
-    }
-
-    .about-logo-slider .img h3 {
-        font-size: 5.5rem;
-    }
-
-  .banCont h3 {
-      font-size: 12px;
-  }
-
-  .support-box ul {
-      flex-wrap: wrap;
-  }
-
-  .btn-box .themeBtn:first-child {
-      padding: 15px 30px;
-      margin: 0;
-  }
-
-  .themeBtn {
-      padding: 15px 22px;
-  }
-
-  .btn-box .themeBtn:last-child {
-      padding: 15px 30px;
-      margin: 0;
-  }
-
-  .btn-box {
-      margin: 0;
-  }
-
-  .menuList ul {gap: 25px;}
-
-  .img h3 {
-      font-size: 2rem;
-      gap: 45px;
-  }
-
-  .ab-box {
-      padding: 30px 24px;
-  }
-
-  .aboutCont ul li {
-      font-size: 13px;
-      padding: 5px;
-      gap: 6px;
-  }
-
-  .cb-box ul li {
-      padding: 22px 16px;
-  }
-
-  .vs-box h4 {
-      height: 70px;
-      width: 70px;
-  }
-
-  .fb-cont h4 {
-      font-size: 1.125rem;
-  }
-
-  .fb-cont {
-      padding: 1.5rem 1.125rem;
-  }
-  .how-cont {
-    padding: 1rem;
-  }
-  a.headBtn h3 {
-        font-size: 1.1rem;
-    }
-
-    .desktop-nav {
-        gap: 25px;
-    }
-    .desktop-nav > ul > li > a {
-        font-size: 12px;
-    }
-    .banCont {
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 1199px) {
-  html {
-    font-size: 12px;
-  }
-  .img h3 figure {
-        width: 55%;
-    }
-  .formpop form .form-control, .formpop form .form-select {
-        height: 60px;
-    }
-
-    .mdb-right p {
-        font-size: 13px;
-        padding: 0;
-        margin: 20px 0;
-    }
-
-    .mdb-right h3 {
+    .mov-head h3 {
         font-size: 1.5rem;
     }
 
-    .formpop .modal-content {
-        min-height: 75vh;
-    }
-    .formpop form textarea.form-control {
-        height: 110px;
-    }
-  .desktop-nav > ul {
-        gap: 10px;
+    .mov-left-card {
+        padding: 2rem 4rem 2rem 1.75rem;
     }
 
-    .desktop-nav > ul > li > a {
-        font-size: 11px;
+    .mov-right-card {
+        padding: 2rem 2rem 2rem 3rem;
+    }
+    .ban-cont-hero {
+        margin-right: -4.35rem;
+        margin-bottom: -78px;
+        margin-left: -250px;
+    }
+    footer h1 {
+        font-size: 16rem;
+    }
+
+    .sectionHeading span b:before {
+        height: 7px;
+    }
+    footer hr {
+        width: 93%;
+    }
+
+    .ban-elm-two {
+        width: 52.85%;
+        top: 59%;
+        transform: translateY(-50%);
+        right: -32px;
+    }
+    .banCont h1 {
+        font-size: 3.5rem;
+    }
+
+    .support-box ul {
+        width: 80%;
+    }
+
+    .banCont p {
+        font-size: 1.25rem;
+    }
+
+    .banElm {
+        width: 50.12%;
+    }
+
+    .banCont {
+        padding-bottom: 5rem;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .sectionHeading {
+        font-size: 3rem;
+    }
+
+    .serv-card {
+        padding: 1.5rem;
+    }
+
+    .serv-card h3 {
+        font-size: 1.125rem;
+    }
+
+    .ser-side-cont h3 {
+        font-size: 1.85rem;
+    }
+
+    .serv-card p {
+        font-size: 14px;
+    }
+
+    .ser-side-cont .themeBtn {
+        font-size: 12px;
+        padding: 12px 22px;
+    }
+
+    .ser-side-cont .themeBtn i {
+        font-size: 14px;
+    }
+    .why-box-card:first-child img {
+        height: 315px;
+    }
+
+    .ser-income-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .ser-income-card p {
+        font-size: 1rem;
+    }
+    .part-card {
+        min-height: 410px;
+    }
+
+    .mix-two-card {
+        min-height: 240px;
+    }
+
+
+    .logo-slider h3, .logo-slider-two h3 {
+        gap: 40px;
+        font-size: 5rem;
+    }
+
+    .logo-slider h3 span, .logo-slider-two h3 span {
+        margin-bottom: -30px;
+    }
+
+    .logo-slider {
+        margin-top: -5rem;
+    }
+
+    .mix-sect h1 {
+        font-size: 9.35rem;
+        top: 50%;
+    }
+
+    .mix-cta-img img {
+        height: 450px;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .mix-cta {
+        overflow: hidden;
+    }
+
+    .faq-cont .accordion-button {
+        font-size: 1.25rem;
+    }
+    .inner-banner .banCont h1 {
+        font-size: 4rem;
+    }
+
+    .vendor-cont:before {
+        height: 100%;
+    }
+
+    .vendor-cont {
+        padding: 7rem 4rem 7rem 4rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    html {
+        font-size: 15px;
+    }
+    .inner-elm {
+        width: 50%;
+    }
+
+    .main-banner.inner-banner {
+        min-height: 600px;
+    }
+
+    .main-banner.inner-banner .banCont {
+        padding-bottom: 0;
+    }
+
+    .ab-th-cont {
+        padding: 3rem;
+    }
+    footer h1 {
+        font-size: 14.5rem;
+        bottom: 22px;
+    }
+    .ban-cont-hero {
+        margin-bottom: -6rem;
+        margin-right: -2.25rem;
+    }
+
+    .ban-elm-two {
+        width: 52.85%;
+        top: 60%;
+        transform: translateY(-50%);
+        right: -25px;
+    }
+
+    .ban-cont-hero {
+        margin-bottom: -12rem;
+        margin-right: -2.5rem;
+    }
+
+    .banCont h1 {
+        font-size: 3.25rem;
+    }
+
+    .desktop-nav > ul {
+        gap: 15px;
     }
 
     .desktop-nav {
         gap: 20px;
     }
-  .blg-card .overlay:before {
-        height: 40px;
-        width: 80%;
+
+    a.headBtn {
+        font-size: 1rem;
     }
-  .widget {
-        padding: 22px;
-        border-radius: 15px;
+
+    .main-banner {
+        min-height: 90vh;
     }
-  .sac-cont h3 {
+
+    .header-bottom {
+        padding: 20px 0;
+    }
+
+    .ab-Cont:before {
+        padding: 10px;
+    }
+
+    .ab-Cont {
+        padding: 5rem 3rem 5rem 5rem;
+    }
+
+    .about-card {
+        margin-right: -5rem;
+    }
+
+    .grtCont .sectionHeading {
         font-size: 3rem;
     }
-  .line-two {
-        top: 40%;
-        transform: translate(-55%, 35%) rotate(-15deg);
-        left: 25%;
-        width: 32%;
+
+    .mix-sect h1 {
+        font-size: 8.25rem;
+        top: 45%;
     }
 
-    .line-one {
-        transform: translate(-50%, 35%) rotate(15deg);
-        width: 30%;
-        left: 52%;
+    .stage {
+        margin-top: 15rem;
     }
 
-    .line-three {
-        top: 44%;
-        left: 40%;
-        transform: translate(65%, 35%) rotate(-15deg);
-        width: 30%;
-    }
-  .blg-card .overlay .meta-box {
-        padding: 0 18px;
-        flex: 0 0 80%;
+    .mix-tab-cont {
+        margin-top: 15rem;
     }
 
-    .blg-card .overlay .meta-box h4 {
-        font-size: 10px;
+    .mix-cta-cont {
+        padding: 2rem;
     }
 
-    .blg-card .overlay .meta-box h5 {
-        font-size: 10px;
-        padding: 5px 12px;
-    }
-  .test-in-sect .form-box .fb-cont:first-child, .test-in-sect .form-box .fb-cont:nth-child(2) {
-        flex: 0 0 49%;
+    .mix-cta-img img {
+        height: 390px;
     }
 
-    .test-in-sect .form-box .fb-cont:last-child {
-        flex: 0 0 100%;
-    }
-  .moc-orbit {
-        width: min(60vw, 425px);
+    .comp-one .top h3 {
+        font-size: 1.5rem;
     }
 
-    .moc-widget {
-        transform: translate(10%, -50%);
+    .comp-two .top h3 {
+        font-size: 1.35rem;
+        flex: 0 0 60%;
     }
 
-    .ban-cont-hero figure img.img-fluid {
+    .why-box-card:first-child img {
+        height: 350px;
+    }
+
+    .cnt-img {
+        display: block;
+        position: relative;
+    }
+
+    .cntElm {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: 90%;
+        height: 90%;
     }
-    .cta-cont:before {
-        top: 6px;
+
+    .pill-tag {
+        padding: 8px 16px;
+    }
+    .ser-income-on .ser-income-num {
+        font-size: 7rem;
+    }
+
+    .ser-income-num {
+        font-size: 6rem;
+        left: 0;
+    }
+
+    .ser-income-card {
+        padding: 20px 10px 20px 95px;
+    }
+
+    .ser-income-card p {
+        font-size: 14px;
+    }
+
+    .ser-income-card h3 {
+        font-size: 1.125rem;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    html {
+        font-size: 12px;
+    }
+    .mov-head figure {
+        height: 65px;
+        width: 65px;
+    }
+
+    .mov-head figure img {
+        width: 50%;
+    }
+
+    .inner-opt.opt-sect .row {
+        gap: 0;
+    }
+    .opt-img .overlay .exp-content {
+        height: 220px;
+        width: 220px;
+        left: -12px;
+        top: -12px;
+    }
+    .real-cont figure {
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+    .main-banner.inner-banner {
+        min-height: 500px;
+    }
+    .comp-two .top h4 {
+        padding: 5px 8px;
+    }
+    .ban-elm-two {
+        right: -27px;
+        width: 60%;
+        top: 63%;
+    }
+
+    .main-banner::before {
+        width: 45%;
+    }
+    .ser-income-on .ser-income-num {
+        font-size: 7rem;
+    }
+
+    .ser-income-num {
+        font-size: 6rem;
+        left: 0;
+    }
+
+    .ser-income-card {
+        padding: 20px 10px 20px 95px;
+    }
+
+    .ser-income-card p {
+        font-size: 14px;
+    }
+
+    .ser-income-card h3 {
+        font-size: 1.125rem;
+        margin: 0;
+    }
+
+    .banCont h1 b:before {
+        height: 5px;
+    }
+
+    .sectionHeading span b:before {
+        height: 5px;
+        bottom: 5px;
+    }
+
+    .main-banner {
+        min-height: 85vh;
+    }
+
+    .ab-elm {
+        width: 50%;
+    }
+
+    .opt-cont ul li i {
+        height: 15px;
+        width: 15px;
+        font-size: 9px;
+    }
+
+    .part-card {
+        min-height: 325px;
+    }
+
+    .mix-cta-img img {
+        height: 325px;
+    }
+
+    .test-cont p {
+        font-size: 1.35rem;
+    }
+
+    .bio {
+        flex: 0 0 50%;
+    }
+
+    .cta-cont-two .themeBtn:first-child i {
+        height: 40px;
+        width: 40px;
+    }
+    .opt-box {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .themeBtn {
+        padding: 18px 20px;
+    }
+
+    .ab-box figure {
+        height: 70px;
+        width: 70px;
+    }
+
+    .ab-box figure img {
+        width: 50%;
+    }
+    .ser-shop-slider .slick-slide {
+        margin: 0 10px;
+    }
+    .why-cont {
+        margin-bottom: 4rem;
+    }
+    .why-box-card:first-child img {
+        height: 220px;
+    }
+
+    .why-cont-two {
+        margin-top: 4rem;
+    }
+
+    .why-cont-two img {
+        width: 100%;
+    }
+    .cnt-boxes {
+        padding: 4rem 2rem 0;
+    }
+    footer hr {
+        width: 95%;
+    }
+    .ser-income-item {
+        margin: 12px 0;
+    }
+
+    .ser-income-card h3 {
+        font-size: 1.75rem;
+    }
+
+    .ser-income-card p {
+        font-size: 1.35rem;
+    }
+    .ser-side-cont:before {
+        top: 5px;
         left: 6px;
-        right: -6px;
-        bottom: -6px;
-        padding: 3px;
+        border: 3px solid white;
     }
-  .abin-box {
-        padding: 30px 25px;
-    }
-  .main-banner.inner-banner {
-        margin-top: -12rem;
+    .comp-one ul {
+        height: 380px;
+        overflow-y: scroll;
     }
 
-    .about-intwo-sect:before {
-        height: 100%;
+    .comp-two ul {
+        height: 380px;
+        overflow-y: scroll;
     }
-
-    .about-logo-slider .img h3 {
-        font-size: 5rem;
-    }
-
-  .ht-right ul {
-      gap: 40px;
-  }
-
-  .menuList ul li a {
-      font-size: 13px;
-  }
-
-  .menuList ul {
-      gap: 15px;
-  }
-
-  .main-banner {
-      margin-top: 0;
-      border-top: 0;
-      padding: 7rem 0 0;
-  }
-
-  .banCont h3 {
-      padding: 10px 8px;
-  }
-
-
-  .img h3 {
-      font-size: 1.5rem;
-      gap: 55px;
-  }
-
-  section {
-      padding: 6rem 0;
-  }
-
-  .sectionHeading {
-      font-size: 2.5rem;
-  }
-
-  .about-two-sect .aboutCont {
-      padding: 0 50px 0 0;
-  }
-
-  .ab-two-boxes {
-      margin-right: 3rem;
-      gap: 10px;
-      margin-left: -6rem;
-  }
-
-  .about-two-sect:before {
-      height: 40%;
-  }
-
-  .why-box {
-      padding: 0 25px 10px;
-  }
-
-  .count-icon-box {
-      gap: 10px;
-  }
-
-  .count-icon-box figure {
-      height: 50px;
-      width: 50px;
-  }
-
-  .how-cont h3 {
-      height: 50px;
-      width: 50px;
-      margin: 0 auto;
-  }
-
-  .how-cont h4 {
-      margin: 15px 0 10px;
-  }
-
-  .rev-box figure {
-      height: 90px;
-      width: 90px;
-  }
-
-  .form-box {
-      flex-wrap: wrap;
-      gap: 0;
-  }
-
-  .form-box .fb-cont:first-child {
-      flex: 0 0 100%;
-  }
-
-  footer .container {
-      padding: 5rem 3rem;
-  }
-
-  .rev-box figure img {
-      width: 25%;
-  }
+  
 }
 
 /* Tablets (768px - 991px) */
 @media (max-width: 991px) {
-  .header-top {
-    display: none;
-  }
-  .mdb-left {
-        display: none;
+    .about-card {
+        margin: 0;
+    }
+    .nav-btn {
+        width: 220px;
+        height: 70px;
     }
 
-    .mdb-right {
-        flex: 0 0 100%;
-        padding: 0 3rem;
+    .nav-circle {
+        height: 50px;
+        width: 70px;
+    }
+    .cnt-detail h3 {
+        font-size: 1.25rem;
     }
 
-    .formpop .modal-content {
-        min-height: 70vh;
+    .cnt-detail h4 {
+        font-size: 1.75rem;
     }
-  
-  .widget-title {
+
+    .cnt-info {
+        margin-bottom: 3rem;
+    }
+    .ser-in-card figure {
+        height: 70px;
+        width: 70px;
+        margin-top: -5px;
+    }
+    .mov-left-card, .mov-right-card {
+        width: 45%;
+        float: left;
+        margin: 20px 15px;
+    }
+    .main-banner.inner-banner:before {
         display: block;
     }
-
-    .recent-post {
-        width: 49%;
-        display: inline-flex;
-    }
-  .serv-about-sect {
-        padding-bottom: 0;
-    }
-  .sac-cont {
-        margin: 1rem 0;
-    }
-    .serv-body .cta-sect .btn-box.cta-btn {
-        flex-wrap: wrap;
-        margin-bottom: 2rem;
+    .vnd-img {
+        margin: 3rem 0 0;
     }
 
-    .serv-body .cta-sect .btn-box.cta-btn .themeBtn {
-        margin: 0;
+    .content-count h3 {
+        font-size: 2.75rem;
     }
-    .line-one, .line-two, .line-three {
+    .ab-th-cont {
+        margin: 0 0 3rem;
+    }
+
+    .ab-third-sect {
+        padding: 7rem 0;
+    }
+    .opt-img {
+        padding: 0 0 0 1rem;
+    }
+
+    .opt-img img {
+        border-radius: 20px;
+    }
+
+    .ser-income {
+        padding: 7rem 4rem 7rem;
+    }
+    .cta-cont-two {
+        text-align: start;
+    }
+    .opt-cont {
+        padding-top: 4rem;
+    }
+    .ban-cont-hero {
         display: none;
     }
-    .exp-sect {
-        text-align: center;
+
+    .main-banner::before {
+        display: none;
     }
 
-    .exp-cont {
-        margin: 1rem 0 0;
+    .main-banner {
+        align-items: center;
+        min-height: 65vh;
     }
 
-    .step-card {
-        flex-direction: column !important;
-        margin-bottom: 2rem;
-    }
-  .cta-sect.serv-cta-sect .btn-box.cta-btn {
-        justify-content: start;
-    }
-  .serv-body .main-banner.inner-banner .banCont {
-        padding: 10rem 0 5rem;
-    }
-    .serv-ab-cont {
-        margin: 0 0 0 0;
-    }
-    .srvin-img {
-        width: 30%;
-    }
-  .item .word {
-        font-size: 50px;
-    }
-
-    .star {
-        font-size: 50px;
-    }
-  .ban-cont-hero {
-        margin: 0;
-    }
-
-    .moc-orbit {
-        width: min(75vw, 600px);
-    }
-
-    .moc-widget {
-        top: 50%;
-        transform: translate(10%, -15%);
-    }
-
-    .moc-tag img {
-        width: 12vw;
-    }
-  .header-bottom {
-        padding: 20px 0;
-        margin: 0;
-        border-radius: 0;
-    }
-  .main-banner.inner-banner .banCont {
-        padding-right: 15rem;
-        padding-bottom: 0;
-    }
-
-    .main-banner.inner-banner {
-        min-height: 500px;
-        padding-top: 5rem;
-    }
-
-    .about-in-sect .aboutCont {
-        margin-bottom: 4rem;
-    }
-
-    .about-logo-slider .img h3 {
-        font-size: 3rem;
-    }
-    .about-intwo-sect {
-        padding-bottom: 0;
-    }
-
-    .about-intwo-sect .aboutCont {
-        padding: 5rem 4rem;
-    }
-
-
-  .main-banner {
-      border: 0;
-      border-radius: 0;
-  }
-  .row.rev-row {
-    flex-direction: column-reverse;
-  }
-
-  .aboutCont {
-      padding: 0;
-  }
-
-  .about-sect:before {
-      display: none;
-  }
-  .ab-two-cont figure {
-    margin: 5rem 0 30px;
-  }
-
-  .ab-box {
-      margin-top: 0 !important;
-      margin-bottom: 0 !important;
-  }
-
-  .ab-two-boxes .ab-box:first-child {
-      margin: 0 !important;
-  }
-
-  .ab-two-boxes {
-      margin: 0;
-  }
-
-  .ab-box figure {
-      margin: 0 0 20px;
-  }
-
-  .about-two-sect:before {
-      display: none;
-  }
-
-  .about-two-sect .aboutCont {
-      padding: 0;
-  }
-
-  .ab-two-cont {
-      padding: 0;
-  }
-
-  .about-sect .ab-box {
-      margin: 25px 0 0 !important;
-  }
-  .count-box {
-    flex: 0 0 100%;
-    padding: 1rem 0 0;
-    flex-wrap: wrap;
-  }
-
-  .trg-box {
-      flex: 0 0 100%;
-      border-radius: 20px 20px 0 0;
-      text-align: center;
-  }
-
-  .count-icon-box {
-      padding: 1rem;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
-
-  .count-box .count-icon-box + .count-icon-box:before {
-      height: 105px;
-  }
-
-
-  .trg-box h3:before {
-      transform: translateX(-50%);
-      left: 50%;
-  }
-  .fd-cont {
-    margin-top: 4rem;
-    position: relative;
-  }
-  .fd-cont-box {
-    margin: 1rem 0 0;
-  }
-  .nc-box {
-    flex-direction: column;
-    text-align: center;
-  }
-  .form-box .fb-cont:first-child {
-    flex: 0 0 47%;
-  }
-
-  .form-box .fb-cont:nth-child(2) {
-      flex: 0 0 50%;
-  }
-
-  .cta-cont p {
-      padding: 0;
-      margin-bottom: 2rem;
-  }
-  .foot-cont p {
-    padding: 0 50px 10px 0;
-  }
-
-  .foot-cont ul.icon-list {
-      margin: 10px 0 30px;
-  }
-  .why-slider .slick-slide,
-  .found-slider .slick-slide,
-  .proof-slider .slick-slide,
-  .revenue-slider .slick-slide,
-  .how-slider .slick-slide {
-        margin: 0 5px;
+    .banCont {
+        padding: 14rem 0 7rem;
     }
     .brand {
-        width: 35%;
-    }   
-    a.headBtn h4 {
-        color: white;
+        width: 30%;
+    }
+    .sectionHeading {
+        margin-bottom: 1.5rem;
+    }
+    .stat-item span {
+        font-size: 2.5rem;
+    }
+    .ser-side-cont {
+        margin: 0;
+    }
+    .ser-income-ready {
+        padding: 0;
+    }
+    .grtCont {
+        margin: 60px 0;
+        padding: 5rem 7rem;
+    }
+    .mix-sect h1 {
+        font-size: 6.5rem;
+        top: 38%;
+    }
+    .mix-tab-cont {
+        margin: 10rem 0 5rem;
     }
 
-    a.headBtn h3 {
-        color: white;
+    .stage {
+        margin: 0 0 7rem;
+    }
+
+    .mix-tab-cont .tabs {
+        width: 100%;
+    }
+
+    .mix-cta-img img {
+        height: 350px;
+    }
+    
+
+    .comp-one ul li {
+        font-size: 14px;
+    }
+    .why-box-card:first-child img {
+        height: 280px;
+    }
+    .testBtn .btn {
+        height: 50px;
+        width: 50px;
+    }
+    .faq-img {
+        padding: 1rem;
+    }
+
+    .faq-img img {
+        border-radius: 15px;
+    }
+
+    .faq-cont .accordion-item {
+        margin: 20px 10px;
+    }
+    .cnt-boxes .row {
+        flex-direction: column-reverse;
+    }
+
+    #inquiryForm {
+        margin-bottom: 0;
+    }
+    .cnt-boxes .row {
+        flex-direction: column-reverse;
+    }
+
+    #inquiryForm {
+        margin-bottom: 0;
+    }
+
+    footer h1 {
+        font-size: 11.5rem;
+        bottom: 30px;
+    }
+
+    .foot-cont h3 {
+        margin-top: 3rem;
+    }
+    .foot-cont ul.icon-list {
+        justify-content: start;
+        margin: 15px 0 0;
+    }
+
+    .foot-cont a img {
+        margin-bottom: 20px;
     }
 }
 
 /* Mobile (max 767px) */
 @media (max-width: 767px) {
-    .img h3 {
-        font-size: 1.5rem;
-        gap: 30px;
+    .mov-head {
+        flex-direction: column;
+        align-items: self-start;
     }
-    a.headBtn h4 {
-        color: white;
+    .date-badge {
+        padding: 20px 30px;
     }
-    .formpop .modal-content {
-        min-height: 80vh;
+    .nav-btn {
+        width: 190px;
+    }
+
+    .mov-left-card, .mov-right-card {
+        margin: 20px 12px;
+        padding: 3rem  2rem;
+    }
+    .ab-Cont:before {
+        top: -25px;
+        bottom: 15px;
+        left: 15px;
+        right: -25px;
+        padding: 8px;
+    }
+    .count-in-cont {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .content-count {
+        flex: 0 0 49%;
+    }
+
+    .inner-banner .banCont h1 {
+        font-size: 3rem;
+    }
+    .part-card {
+        min-height: 250px;
+    }
+    .about-sect {
         padding: 5rem 0;
     }
 
-    .modal-dialog {
-        max-width: 85vw;
-        margin: auto;
+    .ab-Cont {
+        padding: 4rem 3rem 4rem 4rem;
     }
 
-    a.headBtn h3 {
-        color: white;
-    }
-    .submenu li a {
-        font-size: 14px;
-    }
-    .quote-block .quote-icon {
-        flex: 0 0 25%;
+    .opt-img img {
+        padding: 10px;
+        border-radius: 35px;
     }
 
-    .tag-cont span.me-2.fw-semibold.small {
-        font-size: 1.25rem;
+    .stats-strip {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
     }
 
-    .tag-cont .tag-pill {
-        padding: 10px 20px;
+    .ser-side-cont {
+        margin-top: 3rem;
     }
 
-    .nav-circle {
-        height: 40px;
-        width: 60px;
+    .ser-income {
+        padding: 5rem 1rem;
     }
 
-    .nav-btn {
-        width: 200px;
-        height: 60px;
+    .serv-sect .sectionHeading {
+        margin: 0;
     }
 
-    .recent-post {
-        width: 75%;
-    }
-    .step-text p {
-        font-size: 12px;
-    }
-    .map img {
-        height: 450px;
-        object-fit: cover;
-    }
-    .blg-foot h4 {
-        font-size: 11px;
+    .grtCont {
+        margin: 40px 0;
+        padding: 4rem;
     }
 
-    .blg-foot h5 {
-        font-size: 12px;
+    .mix-card {
+        margin: 20px 0 0;
     }
 
-    .blg-card .overlay:before {
-        opacity: 1;
-        width: 100%;
-        border-radius: 14px 14px 0 0;
+    .mix-sect h1 {
+        font-size: 5rem;
     }
 
-    .blg-card .overlay .meta-box {
-        flex: 0 0 100%;
-        padding: 0 1.5rem;
+    .mix-cta-img img {
+        object-position: center;
+        margin-top: 2rem;
     }
 
-    .blg-body {
-        padding-top: 0;
-    }
-    .test-in-sect .sub-form-cont {
-        padding: 3rem 2rem;
-    }
-
-
-    .faq-body #faqAccordion {
-        margin: 1rem 0 0;
-    }
-    
-    .test-body .test-in-sect {
-        padding-bottom: 3rem;
-    }
-    .ser-ban {
-        padding: 2rem;
-        flex-wrap: wrap;
-    }
-
-    .ser-ban .icon-box {
-        flex: 0 0 48%;
-    }
-
-    .servin-head {
+    .comp-cont {
         flex-direction: column;
-        align-items: self-start;
-        gap: 0;
-        margin-bottom: 2rem;
-    }
-    .moc-widget {
-        top: 50%;
-        transform: translate(10%, 25%);
-    }
-    .main-banner.inner-banner .banCont {
-        padding-right: 0;
+        gap: 20px;
     }
 
-    .about-logo-slider .img h3 {
-        font-size: 2.25rem;
-    }
-    .test-box-btn {
-        gap: 10px;
-        flex-wrap: wrap;
-        margin-top: 10px;
+    .comp-one ul {
+        height: 310px;
     }
 
-    .test-review {
-        padding: 10px 20px 10px 10px;
-    }
-    footer .d-flex {
-        flex-direction: column-reverse;
-        gap: 10px;
-    }
-    .nc-box {
-        margin: 20px 0;
-    }
-    .foot-cont h3 {
-        margin: 30px 0 15px;
+    .comp-two ul {
+        height: 310px;
     }
 
-    .foot-cont ul.icon-list {
-        margin: 10px 0 0;
+    .comp-two {
+        padding: 4rem 2rem 2rem;
     }
+
+    .vsBox {
+        top: 51.5%;
+    }
+
+    .testBtn {
+        justify-content: start;
+    }
+
+    .cta-cont-two {
+        text-align: start;
+    }
+    section {
+        padding: 5rem 0;
+    }
+    footer h1 {
+        font-size: 8.5rem;
+    }
+    .why-bg-box {
+        margin: 4rem 0;
+        padding: 5rem 3rem;
+        border-radius: 20px;
+        margin-bottom: -20rem;
+    }
+
+    .why-bg-box:before {
+        border-radius: 20px;
+    }
+
+    .why-box-card:first-child img {
+        height: 330px;
+    }
+
+    .why-box-card h3 {
+        font-size: 1.5rem;
+    }
+
     .foot-cont a img {
-        width: 50%;
+        width: 60%;
     }
-    .faq-help-btn {
-        display: none;
+    .privacy-cont ul li a {
+        padding: 0 10px;
+    }
+    .brand {
+        width: 35%;
     }
 }
 
 /* Small mobile (max 480px) */
 @media (max-width: 567px) {
-    .about-in-sect .aboutCont {
-        padding: 0;
-    }
-    .formpop form .form-control, .formpop form .form-select {
-        height: 50px;
-    }
-
-    .mdb-right {
-        padding: 0 2rem;
-    }
-    .btn-box {
-        flex-direction: column;
-        gap: 10px;
-        align-items: baseline;
-    }
-
-    .cta-cont .btn-box.cta-btn {
-        align-items: center;
-    }
-
-    .formpop .modal-content {
-        padding: 4rem 0;
-        border-radius: 15px;
-    }
-
-    .modal-dialog {
-        max-width: 90vw;
-        margin: auto;
-    }
-    .offcanvas-header .brand {
-        width: 50%;
-    }
     .brand {
-        width: 40%;
+        width: 45%;
     }
-    ul.submenu {
-        column-count: 1;
-    }
-    .submenu li a {
-        font-size: 12px;
-        padding: 10px 4px;
+    .tag-cont span.me-2.fw-semibold.small {
+        font-size: 1.125rem;
     }
 
-    .submenu-back {
-        font-size: 1.5rem;
+    .tag-cont .tag-pill {
+        padding: 10px 16px;
     }
 
-    .submenu-back .back-icon {
-        height: 30px;
-        width: 30px;
-        font-size: 15px;
-    }
-    .quote-block .quote-icon img {
-        width: 40%;
-    }
-
-    .quote-block .quote-icon {
-        padding: 2rem 0;
-        width: 70px;
-    }
-
-    .quote-block {
-        flex-direction: column;
-        align-items: flex-start;
-    }
     .tag-cont {
         flex-wrap: wrap;
-    }
-
-    .tag-cont span.me-2.fw-semibold.small {
-        display: block;
-        flex: 0 0 100%;
-        width: 100%;
-    }
-
-
-    .nav-btn {
-        font-size: 1rem;
-        width: 140px;
+        align-items: center;
     }
 
     .nav-circle {
-        height: 40px;
-        width: 40px;
+        height: 35px;
+        width: 50px;
     }
-    .recent-post {
-        width: 100%;
-    }
-    .coment-form input {
-        height: 60px;
-        margin: 14px 0 0;
-    }
-    .coment-form input.form-check-input {
-        margin-top: 0;
-    }
-    .serv-ab-cont.sera-cont {
-        padding: 4rem 1rem;
-    }
-    .proof-sect .btn-box {
-        flex-direction: column;
+
+    .nav-btn {
         gap: 10px;
-        margin-top: 40px;
-    }
-    .blg-card .overlay:before {
-        content: '';
-        height: 45px;
-    }
-    .faq-body .test-in-sect {
-        padding: 3rem 0;
-    }
-    .test-in-sect .form-box .fb-cont:first-child, .test-in-sect .form-box .fb-cont:nth-child(2) {
-        flex: 0 0 100%;
-    }
-    .ser-ban .icon-box {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        flex: 0 0 45%;
+        font-size: 1.125rem;
+        height: 55px;
+        width: 140px;
     }
 
-    .serv-ab-cont {
-        padding: 4rem 1rem;
+    .nav-strip {
+        padding: 7px;
+    }
+    .date-badge .day {
+        font-size: 1.5rem;
     }
 
-    .serv-ab-cont ul {
-        margin-bottom: 1rem;
+    .date-badge {
+        padding: 12px 18px;
     }
 
-
-    .subtitle {
-        font-size: 11px;
+    .date-badge .month {
+        font-size: 1rem;
     }
 
-
-
-    .about-intwo-sect .aboutCont {
-        padding: 3rem 1rem;
+    .post-meta {
+        font-size: 1rem;
+        padding: 15px;
     }
 
-    .star {
-        font-size: 25px;
+    .post-meta span + span {
+        margin-left: 15px;
     }
 
-    .item .word {
-        font-size: 30px;
+    .cnt-detail h3 {
+        font-size: 1.125rem;
     }
 
-    .item {
-        padding: 0 1rem;
-        gap: 1.5rem;
-    }
-    .faq-top-actions {
-        display: none;
+    .cnt-detail h4 {
+        font-size: 1.5rem;
     }
 
-    .ban-cont-hero {
-        display: none;
-    }
-    .banCont h3 span {
-        flex: 0 0 8%;
-    }
-    .problem-slider .slick-slide {
-        margin: 0 10px;
-    }
-
-    .banCont h3 {
-        font-size: 10px;
-        padding: 10px 5px;
-    }
-
-    .banCont h1 {
-        font-size: 2.75rem;
-    }
-
-    .btn-box .themeBtn:first-child {
-        padding: 10px 15px;
-    }
-
-    .btn-box .themeBtn:last-child {
-        padding: 10px 20px;
-    }
-
-    .btn-box {
-        gap: 5px;
-    }
-
-    .support-box ul {
-        gap: 10px;
-    }
-
-    .ban-img {
-        margin: 0;
-    }
-
-    .img h3 {
-        font-size: 2rem;
-        gap: 40px;
-    }
-
-    .sectionHeading {
-        font-size: 2rem;
-    }
-
-    .themeBtn {
-        margin: 0;
-        padding: 10px 20px;
-    }
-
-    .body-btns {
-        gap: 5px;
-    }
-
-    .ab-box {
-        padding: 2rem !important;
-    }
-
-    .faq-answer-inner {
-        padding: 0 30px 22px 64px;
-    }
-
-    .cta-cont {
+    .cnt-info {
         padding: 3rem;
     }
-
-    .btn-box.cta-btn {
-        flex-direction: column;
-        gap: 10px;
+    .mov-left-card, .mov-right-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .inner-banner .banCont h1 {
+        font-size: 2.5rem;
     }
 
-    .cnt-box {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    .inner-banner .banCont h1 b:before {
+        height: 4px;
+        bottom: 6px;
     }
 
-    .cnt-box span:last-child {
-        margin: unset;
-    }
-    .form-box .fb-cont:first-child {
-        flex: 0 0 100%;
+    .inner-banner .banCont p {
+        width: 100%;
     }
 
-    .form-box .fb-cont:nth-child(2) {
-        flex: 0 0 100%;
+    .exp-content .icon-exp {
+        height: 80px;
+        width: 80px;
     }
 
-    .serv-sect .sectionHeading {
-        padding: 0;
+    .opt-img .overlay .exp-content {
+        height: 180px;
+        width: 180px;
+        top: -30px;
+        left: 4px;
+    }
+
+    .vendor-cont {
+        padding: 5rem 2rem 5rem 2rem;
+    }
+
+    .content-count {
+        flex: 0 0 48%;
+    }
+    .banCont h1 {
+        font-size: 3rem;
     }
 
     section {
-        padding: 4rem 0;
-    }
-    .count-icon-box {
-        flex: 0 0 50%;
+        padding: 3rem 0;
     }
 
-    .count-box .count-icon-box:nth-child(3):before {
-        height: 2px;
-        width: 55%;
-        top: 0;
-        left: 50%;
-        transform: translate(-50%, 0%);
+    .about-sect {
+        padding: 3rem 0;
     }
 
-    .count-box .count-icon-box:nth-child(4):after {
-        content: '';
-        height: 2px;
-        width: 55%;
-        top: 0;
-        left: 50%;
-        transform: translate(-50%, 0%);
-        background: #E2E8F0;
-        position: absolute;
+    header {
+        padding: 10px;
     }
-    .about-intwo-sect .aboutCont {
-        padding: 5rem 2rem;
-    }   
 
+    .header-bottom {
+        border-radius: 12px;
+    }
+
+    .sectionHeading {
+        font-size: 2.75rem;
+    }
+
+    .opt-cont ul {
+        column-count: 1;
+    }
+
+    .opt-box {
+        flex-direction: column;
+        align-items: self-start;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .opt-box .themeBtn {
+        margin: 0;
+    }
+
+    .part-card {
+        min-height: 300px;
+        margin-top: 2rem;
+    }
+
+    .grtCont {
+        padding: 4rem 1rem;
+    }
+
+    .mix-two-card {
+        min-height: 200px;
+    }
+
+    .mix-sect h1 {
+        font-size: 3.25rem;
+        top: 35%;
+    }
+
+    .mix-tab-cont {
+        margin: 6rem 0 5rem;
+    }
+
+    .why-boxes {
+        grid-template-columns: 2fr;
+    }
+
+    .why-cont-two .sectionHeading {
+        font-size: 2.75rem;
+    }
+
+    .bio {
+        flex: 0 0 60%;
+    }
+
+    .test-box {
+        gap: 50px;
+    }
+
+    .cta-sect:before {
+        display: none;
+    }
+
+    footer h1 {
+        font-size: 6rem;
+        bottom: 80px;
+    }
+
+    .foot-bottom {
+        margin-top: 40px;
+    }
+
+    .foot-bottom .d-flex {
+        flex-direction: column;
+        gap: 14px;
+    }
+    .ab-box figure {
+        height: 50px;
+        width: 50px;
+    }
+    .ab-Cont:before {
+        top: -15px;
+        bottom: 5px;
+        left: 5px;
+        right: -15px;
+        padding: 5px;
+    }
+
+    .ab-Cont {
+        padding: 3rem;
+    }
 }
 
 @media (max-width: 480px) {

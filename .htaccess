@@ -1,5 +1,22 @@
 DirectoryIndex index.php
 
+# Revalidate code, reuse unchanged images, and compress text responses.
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 1 month"
+</IfModule>
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js)$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
+</IfModule>
+
 <IfModule mod_dir.c>
     # /services and /blog are pages that share a name with the services/
     # and blogs/ folders. Without this, Apache auto-redirects a bare
@@ -14,7 +31,7 @@ DirectoryIndex index.php
     # Block direct access to partials — these are only meant to be pulled in
     # via PHP include() from a real page, so requesting them directly would
     # render a broken half-page.
-    RewriteRule ^includes/ - [F,L]
+    RewriteRule ^(?:includes|tools)/ - [F,L]
 
     # /index.php -> / (canonical homepage URL)
     RewriteCond %{THE_REQUEST} \s/index\.php[?\s] [NC]

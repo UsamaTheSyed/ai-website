@@ -1,6 +1,4 @@
 <section class="cont-sect">
-        <img src="assets/images/testimonials/cnt-elm-one.webp" class="cnt-elm-one" alt="">
-        <img src="assets/images/testimonials/cnt-elm-two.webp" class="cnt-elm-two" alt="">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -8,16 +6,16 @@
                         <div class="row justify-content-center align-items-end g-5">
                             <div class="col-xl-5 col-lg-6">
                                 <div class="cnt-img">
-                                    <img src="assets/images/why/cntElm.png" class="cntElm" alt="">
+                                    <img loading="lazy" decoding="async" width="554" height="594" src="assets/images/why/cntElm.png" class="cntElm" alt="">
                                     <figure>
-                                        <img src="assets/images/why/cntImg.png" class="img-fluid w-100" alt="">
+                                        <img loading="lazy" decoding="async" width="621" height="735" src="assets/images/why/cntImg.optimized.webp" class="img-fluid w-100" alt="">
                                     </figure>
                                 </div>
                             </div>
                             <div class="col-xl-5 col-lg-6">
                                 <h2 class="sectionHeading">We'd love to hear <span><b><strong>from you.</strong></b></span></h2>
 
-                                <form id="inquiryForm" novalidate data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                                <form id="inquiryForm" action="send-inquiry" method="POST" novalidate data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             
                                     <div class="form-label-title">I'm interested in:</div>
                                     <div class="pill-group" id="platformPills">
@@ -79,8 +77,9 @@
                                         </div>
                                     </div>
                                 
-                                    <button type="submit" class="btn themeBtn">
-                                        <i class="bi bi-send"></i> Send my inquiry
+                                    <div id="inquiryAlert" class="alert d-none" role="alert"></div>
+                                    <button id="inquirySubmit" type="submit" class="btn themeBtn">
+                                        <span class="btn-text"><i class="bi bi-send"></i> Send my inquiry</span>
                                     </button>
                                 
                                 </form>

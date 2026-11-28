@@ -1,66 +1,57 @@
-/**
- * Smooth Scrolling
- * Powered by Lenis (https://lenis.darkroom.engineering/)
- * - Buttery smooth inertia scrolling site-wide
- * - Smooth in-page anchor link scrolling (e.g. href="#contact")
- * - Keeps AOS scroll-reveal animations in sync
- * - Respects users who have "reduced motion" enabled
- */
-
-(function () {
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  // If Lenis failed to load (e.g. offline/blocked CDN) or the user prefers
-  // reduced motion, fall back to native smooth scrolling and stop here.
-  if (typeof Lenis === 'undefined' || prefersReducedMotion) {
-    document.documentElement.style.scrollBehavior = 'smooth';
-    return;
-  }
-
-  const lenis = new Lenis({
-    duration: 1.4,          // scroll "weight" — higher = slower/smoother
-    easing: (t) => Math.min(1, 1 - Math.pow(2, -10 * t)), // easeOutExpo
-    smoothWheel: true,
-    syncTouch: true,        // extends smoothing to touch/trackpad drags too
-    wheelMultiplier: 0.9,   // slightly gentler per wheel-tick = less jumpy
-    touchMultiplier: 1.2,
-    infinite: false,
-  });
-
-  // Drive Lenis with requestAnimationFrame
-  function raf(time) {
+/* Desktop smoothing with native touch and reduced-motion fallback. */
+(() => {
+  'use strict';
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const pointer = matchMedia('(pointer: fine)');
+  let lenis = null, frame = 0;
+  function tick(time) {
+    frame = 0;
+    if (!lenis || document.hidden) return;
     lenis.raf(time);
-    requestAnimationFrame(raf);
+    frame = requestAnimationFrame(tick);
   }
-  requestAnimationFrame(raf);
-
-  // Note: AOS already listens for the native window "scroll" event on its own,
-  // and Lenis moves the real page scroll position by default — so AOS keeps
-  // working automatically here. (We previously re-dispatched a synthetic
-  // "scroll" event on every Lenis tick to "help" AOS, but Lenis also listens
-  // for native scroll events, so that synthetic event fed back into Lenis,
-  // which fired again, which dispatched again... an infinite loop. That was
-  // both the "Maximum call stack size exceeded" crash and the slow scrolling,
-  // since it also ran AOS's expensive full-page refresh on every frame.)
-
-  // Smoothly scroll to in-page anchors (e.g. <a href="#services">)
-  document.addEventListener('click', function (e) {
-    const link = e.target.closest('a[href^="#"]');
-    if (!link) return;
-
-    const targetId = link.getAttribute('href');
-    if (!targetId || targetId === '#') return;
-
-    const target = document.querySelector(targetId);
-    if (!target) return;
-
-    e.preventDefault();
-    lenis.scrollTo(target, {
-      offset: -80, // adjust if you have a fixed header that overlaps content
-      duration: 1.2,
+  function syncLock() {
+    if (!lenis) return;
+    const locked = document.body.classList.contains('modal-open') || document.body.style.overflow === 'hidden';
+    if (locked && !lenis.isStopped) lenis.stop();
+    else if (!locked && lenis.isStopped) lenis.start();
+  }
+  function configure() {
+    cancelAnimationFrame(frame);
+    frame = 0;
+    if (lenis) lenis.destroy();
+    lenis = null;
+    window.lenisSmoothScroll = null;
+    if (reduced.matches || !pointer.matches || typeof Lenis === 'undefined') return;
+    lenis = new Lenis({
+      lerp: 0.1, smoothWheel: true, syncTouch: false, wheelMultiplier: 1,
+      prevent: node => node.matches('.modal, #offcanvasMenu, textarea, select, [data-lenis-prevent]')
     });
+    window.lenisSmoothScroll = lenis;
+    syncLock();
+    if (!document.hidden) frame = requestAnimationFrame(tick);
+  }
+  new MutationObserver(syncLock).observe(document.body, {attributes: true, attributeFilter: ['class', 'style']});
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#"]');
+    if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    if (link.hasAttribute('data-bs-toggle') || link.hasAttribute('download') || link.target === '_blank') return;
+    const hash = link.getAttribute('href');
+    if (!hash || hash === '#') return;
+    let target;
+    try { target = document.getElementById(decodeURIComponent(hash.slice(1))); } catch { return; }
+    if (!target) return;
+    event.preventDefault();
+    if (lenis && !lenis.isStopped) lenis.scrollTo(target, {offset: -90});
+    else target.scrollIntoView({behavior: reduced.matches ? 'instant' : 'smooth'});
+    history.pushState(null, '', location.pathname + location.search + hash);
   });
-
-  // Expose globally in case other scripts want to trigger a smooth scroll
-  window.lenisSmoothScroll = lenis;
+  document.addEventListener('visibilitychange', () => {
+    cancelAnimationFrame(frame);
+    frame = 0;
+    if (lenis && !document.hidden) frame = requestAnimationFrame(tick);
+  });
+  reduced.addEventListener('change', configure);
+  pointer.addEventListener('change', configure);
+  configure();
 })();

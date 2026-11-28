@@ -28,7 +28,7 @@
                         <h4 class="widget-title">Recent Post</h4>
                 
                         <div class="recent-post">
-                        <img src="assets/images/blog/blg-1.webp" class="img-fluid" alt="Recent post thumbnail">
+                        <img loading="lazy" decoding="async" width="524" height="324" src="assets/images/blog/blg-1.webp" class="img-fluid" alt="Recent post thumbnail">
                         <div>
                             <div class="rp-time"><i class="fa-regular fa-clock"></i> 7:00 Am - 8:00pm</div>
                             <div class="rp-title">Ecommerce Automation: What It Actually Means for Online Sellers</div>
@@ -36,7 +36,7 @@
                         </div>
                 
                         <div class="recent-post">
-                        <img src="assets/images/blog/blg-2.webp" class="img-fluid" alt="Recent post thumbnail">
+                        <img loading="lazy" decoding="async" width="524" height="324" src="assets/images/blog/blg-2.webp" class="img-fluid" alt="Recent post thumbnail">
                         <div>
                             <div class="rp-time"><i class="fa-regular fa-clock"></i> 7:00 Am - 8:00pm</div>
                             <div class="rp-title">How to Choose Products for an Ecommerce Store</div>
@@ -44,7 +44,7 @@
                         </div>
                 
                         <div class="recent-post">
-                        <img src="assets/images/blog/blg-7.webp" class="img-fluid" alt="Recent post thumbnail">
+                        <img loading="lazy" decoding="async" width="524" height="324" src="assets/images/blog/blg-7.webp" class="img-fluid" alt="Recent post thumbnail">
                         <div>
                             <div class="rp-time"><i class="fa-regular fa-clock"></i> 7:00 Am - 8:00pm</div>
                             <div class="rp-title">Walmart Marketplace: What Sellers Need to Know</div>

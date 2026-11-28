@@ -25,7 +25,7 @@
                     <div class="navigation">
                         <div class="brand">
                             <div class="logo">
-                                <a href="./"><img src="assets/images/logo/logo.png" class="img-fluid" alt="Logo"></a>
+                                <a href="./"><img decoding="async" width="292" height="67" src="assets/images/logo/logo.png" class="img-fluid" alt="Logo"></a>
                             </div>    
                         </div>
 
@@ -93,7 +93,7 @@
     <div class="brand">
         <a href="./">
             <figure>
-                <img src="assets/images/logo/logo.webp" class="img-fluid" alt="">
+                <img decoding="async" src="assets/images/logo/logo.webp" class="img-fluid" alt="">
             </figure>
         </a>
     </div>
@@ -158,7 +158,7 @@
 <nav class="offcanvas" id="offcanvasMenu" aria-hidden="true">
   <div class="offcanvas-header">
     <div class="brand">
-        <a href="./"><img src="assets/images/footer/Logo.webp" alt=""></a>
+        <a href="./"><img decoding="async" src="assets/images/footer/logo.png" alt=""></a>
     </div>
     <button class="offcanvas-close" id="closeBtn" aria-label="Close menu">&times;</button>
   </div>

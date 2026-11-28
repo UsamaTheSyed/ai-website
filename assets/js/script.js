@@ -1,22 +1,8 @@
-
-function startAnimation() {
-  AOS.init({
-    easing: 'ease',
-    duration: 1200,
-    mirror: false,
-    disable: function () {
-      return window.innerWidth <= 1024;
-    }
-  });
-}
-
-startAnimation();
-
-
 function initSerIncome() {
     const AUTOPLAY_MS = 5000;
     const section = document.getElementById('ser-income');
     const list = document.getElementById('ser-income-list');
+    if (!section || !list) return;
     const items = Array.from(list.querySelectorAll('.ser-income-item'));
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
     let current = 0, timer = null, inView = false;
@@ -59,6 +45,7 @@ function initSerIncome() {
     section.addEventListener('focusin', function (e) { if (e.target.matches(':focus-visible')) stop(); });
     section.addEventListener('focusout', play);
     document.addEventListener('visibilitychange', function () { document.hidden ? stop() : play(); });
+    reduce.addEventListener('change', play);
     new IntersectionObserver(function (entries) {
       inView = entries[0].isIntersecting;
       if (inView) section.classList.add('ser-income-ready');
@@ -74,6 +61,10 @@ function initMilestonesSlider(){
 
     const tabs = document.querySelectorAll('.tab');
     const dashImg = document.getElementById('dashImg');
+    const tabRoot = document.getElementById('tabs');
+    if (!dashImg || !tabs.length || !tabRoot) return;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let visible = false;
     let current = 0;
     let timer = null;
 
@@ -113,7 +104,7 @@ function initMilestonesSlider(){
 
     function restart(){
       clearInterval(timer);
-      timer = setInterval(next, DURATION);
+      if (visible && !document.hidden && !reduced.matches) timer = setInterval(next, DURATION);
     }
 
     tabs.forEach((t, i) => t.addEventListener('click', () => goTo(i)));
@@ -125,7 +116,10 @@ function initMilestonesSlider(){
     restart();
 
     document.getElementById('tabs').addEventListener('mouseenter', () => clearInterval(timer));
-    document.getElementById('tabs').addEventListener('mouseleave', restart);
+    tabRoot.addEventListener('mouseleave', restart);
+    new IntersectionObserver(entries => { visible = entries[0].isIntersecting; restart(); }).observe(tabRoot);
+    document.addEventListener('visibilitychange', restart);
+    reduced.addEventListener('change', restart);
   }
 
   initMilestonesSlider();
@@ -140,7 +134,7 @@ function easeOutExpo(t) {
     const decimals = parseInt(el.dataset.decimals ?? 0);
     const prefix   = el.dataset.prefix ?? '';
     const suffix   = el.dataset.suffix ?? '';
-    const duration = 1600;
+    const duration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 1 : 1600;
 
     setTimeout(() => {
       el.classList.add('animated');
@@ -172,7 +166,7 @@ function easeOutExpo(t) {
     }
   }, { threshold: 0.3 });
 
-  observer.observe(strip);
+  if (strip) observer.observe(strip);
 
 
 
@@ -415,6 +409,7 @@ $(function () {
   var $slider = $('.serv-slider');
   var $thumb = $('.progress-thumb');
   var $dot = $('.progress-dot');
+  if (!$slider.length) return;
   var total = $slider.slick('getSlick').slideCount; // original slide count, ignores clones
 
   function updateProgress(currentSlide){
@@ -497,48 +492,58 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const pills = document.querySelectorAll('.pill-tag');
-  pills.forEach(pill => {
-    pill.addEventListener('click', () => {
-      pill.classList.toggle('selected');
-    });
-  });
- 
-  const form = document.getElementById('inquiryForm');
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
- 
-    const selectedPlatforms = Array.from(document.querySelectorAll('.pill-tag.selected'))
-      .map(p => p.dataset.value);
- 
-    const data = {
-      platforms: selectedPlatforms,
-      fullName: form.fullName.value,
-      email: form.email.value,
-      phone: form.phone.value,
-      budget: form.budget.value,
-      message: form.message.value
-    };
- 
-    console.log('Inquiry submitted:', data);
-    alert('Thanks! Your inquiry has been submitted.');
-    // form.reset();
-  });
-});
+$(document).ready(function() {
+    function checkSlider() {
+        if ($(window).width() <= 1200) {
+            if (!$('.ser-shop-slider').hasClass('slick-initialized')) {
+                $('.ser-shop-slider').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false,
+                    responsive: [
+                      {
+                          breakpoint: 991,
+                          settings: {
+                              slidesToShow: 2,
+                              slidesToScroll: 1,
+                          }
+                      },
+                      {
+                          breakpoint: 480,
+                          settings: {
+                              slidesToShow: 1,
+                              slidesToScroll: 1,
+                          }
+                      }
+                  ]
+                });
+            }
+        }
+    }
 
+    checkSlider();
+    $(window).resize(checkSlider);
+});
 
 $(document).ready(function() {
     function checkSlider() {
         if ($(window).width() <= 991) {
-            if (!$('.why-slider').hasClass('slick-initialized')) {
-                $('.why-slider').slick({
+            if (!$('.part-slider').hasClass('slick-initialized')) {
+                $('.part-slider').slick({
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     dots: true,
                     arrows: false,
                     responsive: [
                       {
+                          breakpoint: 768,
+                          settings: {
+                              slidesToShow: 1,
+                              slidesToScroll: 1,
+                          }
+                      },
+                      {
                           breakpoint: 480,
                           settings: {
                               slidesToShow: 1,
@@ -555,46 +560,12 @@ $(document).ready(function() {
     $(window).resize(checkSlider);
 });
 
-$(document).ready(function() {
-    function checkSlider() {
-        if ($(window).width() <= 991) {
-            if (!$('.how-slider').hasClass('slick-initialized')) {
-                $('.how-slider').slick({
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
-                    responsive: [
-                      {
-                          breakpoint: 768,
-                          settings: {
-                              slidesToShow: 2,
-                              slidesToScroll: 1,
-                          }
-                      },
-                      {
-                          breakpoint: 480,
-                          settings: {
-                              slidesToShow: 2,
-                              slidesToScroll: 1,
-                          }
-                      }
-                  ]
-                });
-            }
-        }
-    }
-
-    checkSlider();
-    $(window).resize(checkSlider);
-});
-
 
 $(document).ready(function() {
     function checkSlider() {
         if ($(window).width() <= 991) {
-            if (!$('.found-slider').hasClass('slick-initialized')) {
-                $('.found-slider').slick({
+            if (!$('.mix-slider').hasClass('slick-initialized')) {
+                $('.mix-slider').slick({
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     dots: true,
@@ -625,10 +596,10 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     function checkSlider() {
-        if ($(window).width() <= 991) {
-            if (!$('.proof-slider').hasClass('slick-initialized')) {
-                $('.proof-slider').slick({
-                    slidesToShow: 3,
+        if ($(window).width() <= 768) {
+            if (!$('.abouts-slider').hasClass('slick-initialized')) {
+                $('.abouts-slider').slick({
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     dots: true,
                     arrows: false,
@@ -806,7 +777,7 @@ $(document).ready(function() {
  
     const RADIUS_PCT = 47;        // must match the SVG circle's r value
     const ACTIVE_THRESHOLD = 13;  // degrees within which a tag counts as "reached"
-    const SPEED = 0.35;           // degrees per animation frame
+    const SPEED = 21;           // degrees per animation frame
  
     const tagEls = [];
  
@@ -828,7 +799,7 @@ $(document).ready(function() {
       const el = document.createElement('div');
       el.className = 'moc-tag';
       el.innerHTML =
-        '<img src="' + t.img + '" alt="' + t.name + '">';
+        '<img src="' + t.img + '" alt="' + (t.name || 'Store platform') + '">';
       positionAtAngle(el, t.angle, RADIUS_PCT);
       orbit.appendChild(el);
       tagEls.push(el);
@@ -836,13 +807,19 @@ $(document).ready(function() {
  
     let angle = tags[0] ? tags[0].angle : 0;
  
-    function tick(){
-      angle = (angle + SPEED) % 360;
+    let orbitWidth = orbit.clientWidth, orbitHeight = orbit.clientHeight;
+    let visible = false, lastTime = 0;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    function tick(time){
+      if (!visible || document.hidden || reduced.matches) { root._mocRaf = 0; return; }
+      const delta = lastTime ? Math.min(time - lastTime, 50) : 0;
+      lastTime = time;
+      angle = (angle + SPEED * delta / 1000) % 360;
  
       const rad = (angle - 90) * Math.PI / 180;
-      const radiusPx = orbit.clientWidth * (RADIUS_PCT / 100);
-      const cx = orbit.clientWidth / 2 + radiusPx * Math.cos(rad);
-      const cy = orbit.clientHeight / 2 + radiusPx * Math.sin(rad);
+      const radiusPx = orbitWidth * (RADIUS_PCT / 100);
+      const cx = orbitWidth / 2 + radiusPx * Math.cos(rad);
+      const cy = orbitHeight / 2 + radiusPx * Math.sin(rad);
       comet.style.transform = 'translate(' + (cx - 7) + 'px, ' + (cy - 7) + 'px)';
  
       let current = null;
@@ -861,9 +838,16 @@ $(document).ready(function() {
       root._mocRaf = requestAnimationFrame(tick);
     }
  
-    requestAnimationFrame(tick);
- 
+    function resume() {
+      if (root._mocRaf) cancelAnimationFrame(root._mocRaf);
+      root._mocRaf = 0; lastTime = 0;
+      if (visible && !document.hidden && !reduced.matches) root._mocRaf = requestAnimationFrame(tick);
+    }
+    new IntersectionObserver(entries => { visible = entries[0].isIntersecting; resume(); }).observe(root);
+    document.addEventListener('visibilitychange', resume);
+    reduced.addEventListener('change', resume);
     window.addEventListener('resize', () => {
+      orbitWidth = orbit.clientWidth; orbitHeight = orbit.clientHeight;
       tags.forEach((t, i) => positionAtAngle(tagEls[i], t.angle, RADIUS_PCT));
     });
   }

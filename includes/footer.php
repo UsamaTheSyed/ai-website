@@ -3,17 +3,17 @@
     <div class="foot-top">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-3 col-md-6">
                     <div class="foot-cont">
                         <a href="javascript:;">
-                            <img src="assets/images/footer/logo.png" class="img-fluid" alt="">
+                            <img loading="lazy" decoding="async" width="444" height="104" src="assets/images/footer/logo.png" class="img-fluid" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-xl-7 col-lg-6 col-md-12">
                     <hr>
                 </div>
-                <div class="col-md-2">
+                <div class="col-xl-2 col-lg-3 col-md-6">
                     <div class="foot-cont">
                         <ul class="icon-list">
                             <li><a href="javascript:;"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -31,7 +31,7 @@
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         </p>
                         <figure>
-                            <img src="assets/images/footer/card.webp" class="img-fluid" alt="">
+                            <img loading="lazy" decoding="async" width="253" height="73" src="assets/images/footer/card.webp" class="img-fluid" alt="">
                         </figure>
                     </div>
                 </div>
@@ -83,10 +83,10 @@
     <div class="foot-bottom">    
         <div class="container-fluid p-0">
             <div class="row justify-content-center m-0">
-                <div class="col-md-10 p-0">
+                <div class="col-lg-10 col-md-11 col-11 p-0">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="copy-text">
-                            <p><span><img src="assets/images/footer/icon.svg" class="img-fluid" alt=""></span>2026 New Brand All Right Reserved</p>
+                            <p><span><img loading="lazy" decoding="async" src="assets/images/footer/icon.svg" class="img-fluid" alt=""></span>2026 New Brand All Right Reserved</p>
                         </div>
                         <div class="privacy-cont">
                             <ul>
@@ -111,7 +111,7 @@
                 <div class="modal-body">
                     <div class="mdb-left">
                         <figure>
-                            <img src="assets/images/footer/footpop.png" class="img-fluid" alt="">
+                            <img loading="lazy" decoding="async" src="assets/images/footer/footpop.png" class="img-fluid" alt="">
                         </figure>
                     </div>
                     <div class="mdb-right">
@@ -119,7 +119,7 @@
                         <p>
                             Get a clear look at your store, current opportunities, and areas that may be limiting your growth. Share a few details and our team will review your business and follow up with the next steps.
                         </p>
-                        <form id="contactForm" class="row g-3" action="send-mail.php" method="POST" novalidate>
+                        <form id="contactForm" class="row g-3" action="send-mail" method="POST" novalidate>
                             <div class="col-md-6">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Name*"
                                     required maxlength="100" autocomplete="name">
@@ -195,13 +195,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
 <!-- <script src="assets/js/jquery.appear.js" defer></script> -->
-<script src="assets/js/aos.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 <!-- Smooth Scrolling (Lenis) -->
-<script src="https://cdn.jsdelivr.net/gh/darkroomengineering/lenis@1.1.13/dist/lenis.min.js" defer></script>
-<script src="assets/js/smooth-scroll.js" defer></script>
 <!-- Custom Mouse Helper (cursor) -->
-<script src="assets/js/cursor.js" defer></script>
 <script src="assets/js/script.js" defer></script>
+<script src="assets/js/motion.js" defer></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="assets/js/smooth-scroll.js" defer></script>
